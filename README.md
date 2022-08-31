@@ -1,5 +1,5 @@
 <h1 align="center">
-        <img src="/assets/images/logo.png" alt="Logo SoyIA">
+        <img src="/assets/images/logo.png" alt="Logo SoyIA" width="220px" height="220px">
 </h1>
 <p align="center">
         <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="Tensorflow Badg">
