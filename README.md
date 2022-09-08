@@ -46,10 +46,10 @@ Você também pode visualizar o *Product Backlog* de cada sprint clicando [aqui]
     
 | Sprints    | About                            | Datas         |
 | ---------- | -------------------------------- | ------------- |
-| `Sprint 0` | Construção do roadmap do projeto | 15/08 a 19/08 |
-| `Sprint 1` | Em desenvolvimento               | 25/03 a 14/04 |
-| `Sprint 2` | A ser desenvolvido               | 25/04 a 15/05 |
-| `Sprint 3` | A ser desenvolvido               | 16/05 a 05/06 |
+| `Sprint 0` | Construção do roadmap do projeto | 15/08 a 19/09 |
+| `Sprint 1` | Em desenvolvimento               | 19/09 a 09/10 |
+| `Sprint 2` | A ser desenvolvido               | 17/10 a 06/11 |
+| `Sprint 3` | A ser desenvolvido               | 07/11 a 27/11 |
         
 # Projeto em Operação 📱
 
