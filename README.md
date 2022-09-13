@@ -27,7 +27,7 @@
 
 # Sobre 📚
 
-<p align="justify">Sobre o projeto</p>
+<p align="justify">O projeto constitui a adição de uma nova ferramenta para um aplicativo feito em outro projeto integrador para a Visiona. Nesta ferramenta era necessário ir a campo contar vagens e grãos para seu uso e isso exigia muito tempo do agricultor, surgiu a ideia de criar uma ferramenta com inteligência artificial para a contagem automática e visual desses grãos e esta é a ferramenta requisitada para nosso grupo.</p>
 
 # Product Backlog 📍
 
