@@ -22,7 +22,6 @@
 - [User Backlog 📄](#user-backlog-)
 - [Calendário de Entregas 🗓](#calendário-de-entregas-)
 - [Projeto em Operação 📱](#projeto-em-operação-)
-- [Sprint Cards  🖼](#sprint-cards--)
 - [Equipe 👩‍💻👨‍💻](#equipe-)
 
 # Sobre 📚
@@ -32,6 +31,7 @@
 # Product Backlog 📍
 
 <p align="justify">
+        <img src="assets/images/Product%20Backlog%20-%20Sprint%201.png" width="400"/>
 
 Você também pode visualizar o *Product Backlog* de cada sprint clicando [aqui](https://docs.google.com/spreadsheets/d/1kvREkN38lj2lWdEc1EylQo3yAcwkrQTZlOtGEeqNCi8/edit?usp=sharing)
 </p>
@@ -39,28 +39,42 @@ Você também pode visualizar o *Product Backlog* de cada sprint clicando [aqui]
 # User Backlog 📄
 
 <p align="justify">
-> Inserir imagem do User Backlog
+Mudanças que afetam o usuário serão implementadas nas sprints seguintes.
 </p>
   
 # Calendário de Entregas 🗓
     
-| Sprints    | About                            | Datas         |
-| ---------- | -------------------------------- | ------------- |
-| `Sprint 0` | Construção do roadmap do projeto | 15/08 a 19/08 |
-| `Sprint 1` | Em desenvolvimento               | 29/08 a 18/09 |
-| `Sprint 2` | A ser desenvolvido               | 19/09 a 09/10 |
-| `Sprint 3` | A ser desenvolvido               | 17/10 a 06/11 |
-| `Sprint 4` | A ser desenvolvido               | 07/10 a 27/11 |
+| Sprints    | About                                              | Datas         |
+| ---------- | -------------------------------------------------- | ------------- |
+| `Sprint 0` | Construção do roadmap do projeto                   | 15/08 a 19/08 |
+| `Sprint 1` | Modelo inicial de reconhecimento de vagens de soja | 29/08 a 18/09 |
+| `Sprint 2` | A ser desenvolvido                                 | 19/09 a 09/10 |
+| `Sprint 3` | A ser desenvolvido                                 | 17/10 a 06/11 |
+| `Sprint 4` | A ser desenvolvido                                 | 07/10 a 27/11 |
         
 # Projeto em Operação 📱
 
 <p align="justify">
-  Em desenvolvimento
+  Resultado do modelo da IA treinado para identificar vagens de soja presentes na planta:
+
+  <p>
+  <img src="assets/images/Soja-01.jpg" height="250">
+  <img src="assets/images/Resultado%20Soja-01.png" height="250">
+  </p>
+  <p>
+  <img src="assets/images/Soja-02.jpg" height="250">
+  <img src="assets/images/Resultado%20Soja-02.png" height="250">
+  </p>
+  <p>
+  <img src="assets/images/Soja-03.jpg" height="250">
+  <img src="assets/images/Resultado%20Soja-03.png" height="250">
+  </p>
+
+  <p align="justify">
+        É possível identificar que no momento nossa Inteligência Artificial não é capaz de reconhecer todas as vagens presentes na planta, demonstrando que o modelo ainda necessita de melhorias que serão implementadas nas próximas Sprints.
+  </p>
 </p>
         
-# Sprint Cards  🖼
-        
-
 # Equipe 👩‍💻👨‍💻
 
 <body>
