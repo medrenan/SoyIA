@@ -27,7 +27,7 @@
 
 # Sobre 📚
 
-<p align="justify">Sobre o projeto</p>
+<p align="justify">O projeto constitui a adição de uma nova ferramenta para um aplicativo feito em outro projeto integrador para a Visiona. Nesta ferramenta era necessário ir a campo contar vagens e grãos para seu uso e isso exigia muito tempo do agricultor, surgiu a ideia de criar uma ferramenta com inteligência artificial para a contagem automática e visual desses grãos e esta é a ferramenta requisitada para nosso grupo.</p>
 
 # Product Backlog 📍
 
@@ -46,10 +46,11 @@ Você também pode visualizar o *Product Backlog* de cada sprint clicando [aqui]
     
 | Sprints    | About                            | Datas         |
 | ---------- | -------------------------------- | ------------- |
-| `Sprint 0` | Construção do roadmap do projeto | 15/08 a 19/09 |
-| `Sprint 1` | Em desenvolvimento               | 19/09 a 09/10 |
-| `Sprint 2` | A ser desenvolvido               | 17/10 a 06/11 |
-| `Sprint 3` | A ser desenvolvido               | 07/11 a 27/11 |
+| `Sprint 0` | Construção do roadmap do projeto | 15/08 a 19/08 |
+| `Sprint 1` | Em desenvolvimento               | 29/08 a 18/09 |
+| `Sprint 2` | A ser desenvolvido               | 19/09 a 09/10 |
+| `Sprint 3` | A ser desenvolvido               | 17/10 a 06/11 |
+| `Sprint 4` | A ser desenvolvido               | 07/10 a 27/11 |
         
 # Projeto em Operação 📱
 

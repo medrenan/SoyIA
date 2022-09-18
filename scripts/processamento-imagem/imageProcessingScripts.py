@@ -1,5 +1,5 @@
 from skimage.transform import resize
-from skimage.io import imread,imsave
+from matplotlib import pyplot as plt
 
 import cv2
 
@@ -27,3 +27,17 @@ def preProcessing(image):
     image = transformImageToSquareWithPadding(image)
     image = resizeImageSameSize(image)
     return image
+
+def binaryFilter(image):
+        
+    read = cv2.imread(image,2)
+
+
+    ret, bw_img = cv2.threshold(read,127,255,cv2.THRESH_BINARY)
+
+    plt.imshow(read)
+    cv2.imshow("Binary Image",bw_img)
+
+
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
