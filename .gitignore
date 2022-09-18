@@ -40,10 +40,10 @@ summary/
 built_graph/
 
 #Training checkpoints
-ckpt/*
+ckpt/
 
 #pytest cache
 .cache/
 
-annotations/*
-images/*
+annotations/
+images/

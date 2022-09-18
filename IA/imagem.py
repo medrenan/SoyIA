@@ -1,9 +1,12 @@
 #importar biblioteca numpy
 import numpy as np
+from scripts.processamento-imagem.imageProcessingScripts import preProcessing
 #importa biblioteca da rede
 from darkflow.net.build import TFNet
 #importar opencv
 import cv2
+
+image_path = "sample_img/teste4.jpg"
 
 #opções para carregar o modelo
 options = {"model": "cfg/yolo-new.cfg",
@@ -13,8 +16,8 @@ options = {"model": "cfg/yolo-new.cfg",
 tfnet2 = TFNet(options)
 #carrega a rede
 tfnet2.load_from_ckpt()
-#Le a imagem
-original_img = cv2.imread("sample_img/teste4.jpg")
+#Le a imagem realizando os pré-processamentos necessários
+original_img = preProcessing(image_path)
 #Reconhece objetos na imagem
 results = tfnet2.return_predict(original_img)
 if results:
@@ -47,7 +50,7 @@ def boxing(original_img , predictions):
     return newImage
 
 #mostra imagem
-cv2.imshow('image',boxing(original_img, results))
+cv2.imshow('image', boxing(original_img, results))
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
