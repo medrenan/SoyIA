@@ -33,7 +33,7 @@
 <p align="justify">
         <img src="assets/images/Product%20Backlog%20-%20Sprint%201.png" width="400"/>
 
-Você também pode visualizar o *Product Backlog* de cada sprint clicando [aqui](https://docs.google.com/spreadsheets/d/1kvREkN38lj2lWdEc1EylQo3yAcwkrQTZlOtGEeqNCi8/edit?usp=sharing)
+Você também pode visualizar o *Product Backlog* completo de cada sprint clicando [aqui](https://docs.google.com/spreadsheets/d/1kvREkN38lj2lWdEc1EylQo3yAcwkrQTZlOtGEeqNCi8/edit?usp=sharing)
 </p>
 
 # User Backlog 📄
