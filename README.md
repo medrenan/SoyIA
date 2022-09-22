@@ -10,52 +10,52 @@
 
 <h2 align="right">
         <img src="https://img.shields.io/badge/status-ongoing-blue?style=for-the-badge&logo=appveyor" alt="Status: Ongoing">   
-        <img src="https://img.shields.io/badge/sprint-1-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
+        <img src="https://img.shields.io/badge/sprint-2-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
 </h2>
             
 
 # Index 📎
 
 - [Index 📎](#index-)
-- [Sobre 📚](#sobre-)
+- [About 📚](#about-)
 - [Product Backlog 📍](#product-backlog-)
 - [User Backlog 📄](#user-backlog-)
-- [Calendário de Entregas 🗓](#calendário-de-entregas-)
-- [Projeto em Operação 📱](#projeto-em-operação-)
-- [Equipe 👩‍💻👨‍💻](#equipe-)
+- [Delivery Schedule 🗓](#delivery-schedule-)
+- [Project in Operation 📱](#project-in-operation-)
+- [Team 👩‍💻👨‍💻](#team-)
 
-# Sobre 📚
+# About 📚
 
-<p align="justify">O projeto constitui a adição de uma nova ferramenta para um aplicativo feito em outro projeto integrador para a Visiona. Nesta ferramenta era necessário ir a campo contar vagens e grãos para seu uso e isso exigia muito tempo do agricultor, surgiu a ideia de criar uma ferramenta com inteligência artificial para a contagem automática e visual desses grãos e esta é a ferramenta requisitada para nosso grupo.</p>
+<p align="justify">The project constitutes an addition of a new tool to an application made in another integrator project for Visiona. In this tool it was necessary to go to the field to count pods and grains for its use and this required time from the farmer, the idea arose of creating a tool with artificial intelligence for automatic and visual counting of these grains and this group is the required tool for ours.</p>
 
 # Product Backlog 📍
 
 <p align="justify">
         <img src="assets/images/Product%20Backlog%20-%20Sprint%201.png" width="400"/>
 
-Você também pode visualizar o *Product Backlog* completo de cada sprint clicando [aqui](https://docs.google.com/spreadsheets/d/1kvREkN38lj2lWdEc1EylQo3yAcwkrQTZlOtGEeqNCi8/edit?usp=sharing)
+You can also see the complete *Product Backlog* of each sprint clicking [here](https://docs.google.com/spreadsheets/d/1kvREkN38lj2lWdEc1EylQo3yAcwkrQTZlOtGEeqNCi8/edit?usp=sharing)
 </p>
 
 # User Backlog 📄
 
 <p align="justify">
-Mudanças que afetam o usuário serão implementadas nas sprints seguintes.
+Changes that affect the user will be implemented in the following sprints.
 </p>
   
-# Calendário de Entregas 🗓
+# Delivery Schedule 🗓
     
 | Sprints    | About                                              | Datas         |
 | ---------- | -------------------------------------------------- | ------------- |
-| `Sprint 0` | Construção do roadmap do projeto                   | 15/08 a 19/08 |
-| `Sprint 1` | Modelo inicial de reconhecimento de vagens de soja | 29/08 a 18/09 |
-| `Sprint 2` | A ser desenvolvido                                 | 19/09 a 09/10 |
-| `Sprint 3` | A ser desenvolvido                                 | 17/10 a 06/11 |
-| `Sprint 4` | A ser desenvolvido                                 | 07/10 a 27/11 |
+| `Sprint 0` | Project roadmap construction                       | 15/08 a 19/08 |
+| `Sprint 1` | AI identifying the soybean pod                     | 29/08 a 18/09 |
+| `Sprint 2` | to be developed                                    | 19/09 a 09/10 |
+| `Sprint 3` | to be developed                                    | 17/10 a 06/11 |
+| `Sprint 4` | to be developed                                    | 07/10 a 27/11 |
         
-# Projeto em Operação 📱
+# Project in Operation 📱
 
 <p align="justify">
-  Resultado do modelo da IA treinado para identificar vagens de soja presentes na planta:
+  Result of the AI ​​model trained to identify soybean pods present in the plant:
 
   <p>
   <img src="assets/images/Soja-01.jpg" height="250">
@@ -71,11 +71,11 @@ Mudanças que afetam o usuário serão implementadas nas sprints seguintes.
   </p>
 
   <p align="justify">
-        É possível identificar que no momento nossa Inteligência Artificial não é capaz de reconhecer todas as vagens presentes na planta, demonstrando que o modelo ainda necessita de melhorias que serão implementadas nas próximas Sprints.
+        It is possible to identify that at the moment our Artificial Intelligence is not able to recognize all the pods present in the plant, demonstrating that the model still needs improvements that will be implemented in the next Sprints.
   </p>
 </p>
         
-# Equipe 👩‍💻👨‍💻
+# Team 👩‍💻👨‍💻
 
 <body>
         <div align="center">
