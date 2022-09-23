@@ -26,7 +26,7 @@
 
 # About 📚
 
-<p align="justify">The project constitutes an addition of a new tool to an application made in another integrator project for Visiona. In this tool it was necessary to go to the field to count pods and grains for its use and this required time from the farmer, the idea arose of creating a tool with artificial intelligence for automatic and visual counting of these grains and this group is the required tool for ours.</p>
+<p align="justify">The project constitutes an addition of a new tool to an application made in another project for Visiona. In this tool it was necessary to go to the field to count pods and grains for its use and this required time from the farmer,the idea of creating a tool with artificial intelligence for automatic and visual counting of these grains was created and given to us to develop.</p>
 
 # Product Backlog 📍
 
@@ -46,7 +46,7 @@ Changes that affect the user will be implemented in the following sprints.
     
 | Sprints    | About                                              | Datas         |
 | ---------- | -------------------------------------------------- | ------------- |
-| `Sprint 0` | Project roadmap construction                       | 15/08 a 19/08 |
+| `Sprint 0` | Project roadmap                                    | 15/08 a 19/08 |
 | `Sprint 1` | AI identifying the soybean pod                     | 29/08 a 18/09 |
 | `Sprint 2` | to be developed                                    | 19/09 a 09/10 |
 | `Sprint 3` | to be developed                                    | 17/10 a 06/11 |
