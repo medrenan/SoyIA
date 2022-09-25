@@ -19,9 +19,8 @@
 - [Index 📎](#index-)
 - [About 📚](#about-)
 - [Product Backlog 📍](#product-backlog-)
-- [User Backlog 📄](#user-backlog-)
-- [Delivery Schedule 🗓](#delivery-schedule-)
 - [Project in Operation 📱](#project-in-operation-)
+- [Delivery Schedule 🗓](#delivery-schedule-)
 - [Team 👩‍💻👨‍💻](#team-)
 
 # About 📚
@@ -36,45 +35,32 @@
 You can also see the complete *Product Backlog* of each sprint clicking [here](https://docs.google.com/spreadsheets/d/1kvREkN38lj2lWdEc1EylQo3yAcwkrQTZlOtGEeqNCi8/edit?usp=sharing)
 </p>
 
-# User Backlog 📄
-
-<p align="justify">
-Changes that affect the user will be implemented in the following sprints.
-</p>
-  
-# Delivery Schedule 🗓
-    
-| Sprints    | About                                              | Datas         |
-| ---------- | -------------------------------------------------- | ------------- |
-| `Sprint 0` | Project roadmap                                    | 15/08 a 19/08 |
-| `Sprint 1` | AI identifying the soybean pod                     | 29/08 a 18/09 |
-| `Sprint 2` | to be developed                                    | 19/09 a 09/10 |
-| `Sprint 3` | to be developed                                    | 17/10 a 06/11 |
-| `Sprint 4` | to be developed                                    | 07/10 a 27/11 |
-        
 # Project in Operation 📱
 
 <p align="justify">
   Result of the AI ​​model trained to identify soybean pods present in the plant:
-
-  <p>
-  <img src="assets/images/Soja-01.jpg" height="250">
-  <img src="assets/images/Resultado%20Soja-01.png" height="250">
-  </p>
-  <p>
-  <img src="assets/images/Soja-02.jpg" height="250">
-  <img src="assets/images/Resultado%20Soja-02.png" height="250">
-  </p>
-  <p>
-  <img src="assets/images/Soja-03.jpg" height="250">
-  <img src="assets/images/Resultado%20Soja-03.png" height="250">
+   <p align="justify">
+        It is possible to identify that at the moment our Artificial Intelligence is not able to recognize all the pods present in the plant, demonstrating that the model still needs improvements that will be implemented in the next Sprints.
   </p>
 
   <p align="justify">
-        It is possible to identify that at the moment our Artificial Intelligence is not able to recognize all the pods present in the plant, demonstrating that the model still needs improvements that will be implemented in the next Sprints.
+  <img src="assets/images/Soja-01.jpg" height="250">
+  <img src="assets/images/Resultado%20Soja-01.png" height="250">
+  <img src="assets/images/Soja-02.jpg" height="250">
+  <img src="assets/images/Resultado%20Soja-02.png" height="250">
+  <img src="assets/images/Soja-03.jpg" height="250">
+  <img src="assets/images/Resultado%20Soja-03.png" height="250">
   </p>
 </p>
-        
+  
+# Delivery Schedule 🗓
+    
+| Sprints    | About                                              | Delivery      | README    | Release                                                           |
+| ---------- | -------------------------------------------------- | ------------- | ------    | -------                                                           |
+| `Sprint 1` | <p align="justify"> AI modeling and training to identify soybean pods present in plant photos </p> | 18/09 | [-](#) | [Download](https://github.com/medrenan/SoyIA/releases/tag/sprint1) |
+| `Sprint 2` | to be developed                                    | 09/10         | [-](#) | [-](#)                                                               |
+| `Sprint 3` | to be developed                                    | 06/11         | [-](#) | [-](#)                                                               |
+| `Sprint 4` | to be developed                                    | 27/11         | [-](#) | [-](#)                                                               |                    
 # Team 👩‍💻👨‍💻
 
 <body>
