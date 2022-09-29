@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./IA/scripts/processamento-imagem"
+    ]
+}
