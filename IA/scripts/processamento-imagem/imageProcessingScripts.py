@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 
 import cv2
 
-def transformImageToSquareWithPadding(image):
+def transformImageToSquareWithPadding(self,image):
     height, width, channels = image.shape
 
     if height>width:
@@ -19,11 +19,11 @@ def transformImageToSquareWithPadding(image):
     return image
 
 
-def resizeImageSameSize(image):
+def resizeImageSameSize(self,image):
     image_downscaled = resize(image, (256, 256,3))
     return image_downscaled
 
-def preProcessing(image_path):
+def preProcessing(self,image_path):
     image = cv2.imread(image_path)
 
     image = transformImageToSquareWithPadding(image)
@@ -32,6 +32,6 @@ def preProcessing(image_path):
 
     return image
 
-def binaryFilter(image):
+def binaryFilter(self,image):
     bw_img = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY)
     return bw_img
