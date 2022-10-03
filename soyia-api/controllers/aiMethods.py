@@ -6,7 +6,7 @@ def getGrainsEstimate(cultiveId):
             "plant1":20,
             "plant2":20,
         },
-        "sampleTow":{
+        "sampleTwo":{
             "plant1":20,
             "plant2":20,
         },
