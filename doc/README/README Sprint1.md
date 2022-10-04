@@ -1,5 +1,5 @@
 <h1 align="center">
-        <img src="/assets/images/logo.png" alt="Logo SoyIA" width="220px" height="220px">
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Logo/logo.png" alt="Logo SoyIA" width="220px" height="220px">
 </h1>
 <p align="center">
         <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="Tensorflow Badg">
@@ -21,7 +21,7 @@
 
 <p align="justify">In this delivery we focused on the studies and development of AI, we spent most of it with studying and putting into practice already with the images that will be used throughout the project, we had small advances in relation to the AI ​​of its identification with the soybean pods, which is the main requirement for its delivery. </p>
 <p align="center">  
-        <img src="/assets/images/Product%20Backlog%20-%20Sprint%201.png" width="400"/>
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Prodcut%20Backlog/Product%20Backlog%20-%20Sprint%201.png" width="400"/>
 </p>
          
 # <p align="center"> *Project in Operation* 📱💻
@@ -30,18 +30,24 @@
   Result of the AI ​​model trained to identify soybean pods present in the plant:
 
   <p align="center">
-  <img src="/assets/images/Soja-01.jpg" height="250">
-  <img src="/assets/images/Resultado%20Soja-01.png" height="250">
-  <img src="/assets/images/Soja-02.jpg" height="250">
-  <img src="/assets/images/Resultado%20Soja-02.png" height="250">
-  <img src="/assets/images/Soja-03.jpg" height="250">
-  <img src="/assets/images/Resultado%20Soja-03.png" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Soja-01.jpg" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Resultado%20Soja-01.png" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Soja-02.jpg" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Resultado%20Soja-02.png" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Resultado%20Soja-03.png" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Soja-03.jpg" height="250">
   </p>
 
   <p align="justify">
         It is possible to identify that at the moment our Artificial Intelligence is not able to recognize all the pods present in the plant, demonstrating that the model still needs improvements that will be implemented in the next Sprints.
   </p>
 </p>
+
+## Definition of Ready 🗒️
+
+For this delivery we use User Story, demonstrating what the AI ​​features and acceptance criteria will be, with test cases, to validate them for a better understanding of what would be delivered, being aligned with the developers
+
+## Definition of Done ✔️
 
 # <p align="center"> *Burndown* 📉
 
