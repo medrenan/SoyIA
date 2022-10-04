@@ -1,5 +1,5 @@
 <h1 align="center">
-        <img src="/assets/images/logo.png" alt="Logo SoyIA" width="220px" height="220px">
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Logo/logo.png" alt="Logo SoyIA" width="220px" height="220px">
 </h1>
 <p align="center">
         <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="Tensorflow Badg">
@@ -30,7 +30,7 @@
 # Product Backlog 📍
 
 <p align="justify">
-        <img src="assets/images/Product%20Backlog%20-%20Sprint%201.png" width="400"/>
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Prodcut%20Backlog/Product%20Backlog%20-%20Sprint%201.png" width="400"/>
 
 You can also see the complete *Product Backlog* of each sprint clicking [here](https://docs.google.com/spreadsheets/d/1kvREkN38lj2lWdEc1EylQo3yAcwkrQTZlOtGEeqNCi8/edit?usp=sharing)
 </p>
@@ -44,12 +44,12 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
   </p>
 
   <p align="justify">
-  <img src="assets/images/Soja-01.jpg" height="250">
-  <img src="assets/images/Resultado%20Soja-01.png" height="250">
-  <img src="assets/images/Soja-02.jpg" height="250">
-  <img src="assets/images/Resultado%20Soja-02.png" height="250">
-  <img src="assets/images/Soja-03.jpg" height="250">
-  <img src="assets/images/Resultado%20Soja-03.png" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Resultado%20Soja-01.png" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Soja-01.jpg" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Resultado%20Soja-02.png" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Soja-02.jpg" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Resultado%20Soja-03.png" height="250">
+  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Soja-03.jpg" height="250">
   </p>
 </p>
   
@@ -59,7 +59,7 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
 | *Sprints*  | *About* | *Delivery*    | *README*  | *Release* |
 | ---------- | ------  | ------------- | ------    | --------- |
 |  Sprint 1  | AI modeling and training to identify soybean pods present in plant photos. | 18/09 | [View](https://github.com/medrenan/SoyIA/edit/main/doc/README/README%20Sprint1.md) | [Download](https://github.com/medrenan/SoyIA/releases/tag/sprint1) |
-|  Sprint 2  | Implement and train image recognition and classification AI for seed count in soybean pods.  | 09/10 | [-](#) | [-](#)|
+|  Sprint 2  | Implement and train image recognition and classification AI for seed count in soybean pods.  | 09/10 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint2.md) | [Download](#)|
 |  Sprint 3  | Implementing AI in the application with user core functionalities. | 06/11 | [-](#) | [-](#) |
 |  Sprint 4  | Improved effectiveness of seed identification and user functionality. | 27/11 | [-](#) | [-](#) |     
 
