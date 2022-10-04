@@ -10,7 +10,8 @@ import cv2
 
 import sys
 sys.path.append('/scripts/processamento-imagem')
-from imageProcessingScripts import preProcessing
+
+from scripts.imageProcessingScripts import preProcessing
 
 image_path = "images/1a444f61-6811-4c8b-adfc-f47f15c76c7e_1_jpg.rf.3cd7a0a5f219bec6297d1be85288ff39.jpg"
 
