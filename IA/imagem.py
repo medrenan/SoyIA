@@ -1,12 +1,21 @@
 #importar biblioteca numpy
+from tkinter import image_types
+from matplotlib import image
 import numpy as np
-from scripts.processamento-imagem.imageProcessingScripts import preProcessing
+from scipy.fftpack import sc_diff
 #importa biblioteca da rede
 from darkflow.net.build import TFNet
 #importar opencv
 import cv2
 
-image_path = "sample_img/teste4.jpg"
+import sys
+sys.path.append('/scripts/processamento-imagem')
+from scripts.imageProcessingScripts import preProcessing
+
+
+
+
+image_path = "images/1a444f61-6811-4c8b-adfc-f47f15c76c7e_1_jpg.rf.3cd7a0a5f219bec6297d1be85288ff39.jpg"
 
 #opções para carregar o modelo
 options = {"model": "cfg/yolo-new.cfg",
@@ -16,10 +25,15 @@ options = {"model": "cfg/yolo-new.cfg",
 tfnet2 = TFNet(options)
 #carrega a rede
 tfnet2.load_from_ckpt()
+
 #Le a imagem realizando os pré-processamentos necessários
 original_img = preProcessing(image_path)
+#original_img = cv2.imread("sample_img/teste.jpg")
+
 #Reconhece objetos na imagem
 results = tfnet2.return_predict(original_img)
+#results = tfnet2.return_predict(original_img)
+
 if results:
         print("\nResults---------------------------------------------------")
         #Para cada objeto reconhecido printa o nome e com qual confiança
