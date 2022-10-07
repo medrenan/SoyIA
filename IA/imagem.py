@@ -1,5 +1,6 @@
 #importar biblioteca numpy
 from multiprocessing.sharedctypes import Value
+
 import numpy as np
 #importa biblioteca da rede
 from darkflow.net.build import TFNet
@@ -58,12 +59,15 @@ def boxing(original_img , predictions):
             newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (255,0,0), 4)
             #escreve o texto
             newImage = cv2.putText(newImage, label, (top_x, top_y-5), cv2.FONT_HERSHEY_PLAIN , 2, (255,0,0), 1)
-    i=False
-    print(hipdict)
-    return newImage
 
+    print(hipdict)
+
+    return newImage
+ 
 #mostra imagem
 cv2.imshow('image',boxing(original_img, results))
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+print(results[y]['bottomright'])
+print(results[y]['topleft'])
