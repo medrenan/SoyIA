@@ -1,4 +1,6 @@
 #importar biblioteca numpy
+from multiprocessing.sharedctypes import Value
+
 import numpy as np
 #importa biblioteca da rede
 from darkflow.net.build import TFNet
@@ -28,12 +30,26 @@ if results:
 def boxing(original_img , predictions):
     newImage = np.copy(original_img)
     #cria um box pra cada objeto detectado
+    hipdict=[]
     for result in predictions:
+     
         top_x = result['topleft']['x']
         top_y = result['topleft']['y']
 
         btm_x = result['bottomright']['x']
         btm_y = result['bottomright']['y']
+
+        dict={}  
+        keys =range(4)
+        ind = ["eix x top","eixo x btn","eixo y top","eixo y btm"]
+        values = [top_x,btm_x,top_y,btm_y]
+        for i in keys:
+            print('entrou no for\n')
+            dict[ind[i]] = values[i]
+            if i == 3:
+                hipdict.append(dict)
+            
+        
 
         confidence = result['confidence']
         label = result['label']
@@ -43,7 +59,9 @@ def boxing(original_img , predictions):
             newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (255,0,0), 4)
             #escreve o texto
             newImage = cv2.putText(newImage, label, (top_x, top_y-5), cv2.FONT_HERSHEY_PLAIN , 2, (255,0,0), 1)
-        
+
+    print(hipdict)
+
     return newImage
  
 #mostra imagem
