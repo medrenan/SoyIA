@@ -29,8 +29,11 @@
 
 # Product Backlog 📍
 
+<p align= "justigy"> It was decided that the project would be divided into 4 deliveries, throughout the sprints it will be updated and modified as the deliveries progress.</p>
 <p align="justify">
-        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Prodcut%20Backlog/Product%20Backlog%20-%20Sprint%201.png" width="400"/>
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%201.png" width="400"/>
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%202.png" width="400"/>
+        
 
 You can also see the complete *Product Backlog* of each sprint clicking [here](https://docs.google.com/spreadsheets/d/1kvREkN38lj2lWdEc1EylQo3yAcwkrQTZlOtGEeqNCi8/edit?usp=sharing)
 </p>
@@ -40,19 +43,17 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
 <p align="justify">
   Result of the AI ​​model trained to identify soybean pods present in the plant:
    <p align="justify">
-        It is possible to identify that at the moment our Artificial Intelligence is not able to recognize all the pods present in the plant, demonstrating that the model still needs improvements that will be implemented in the next Sprints.
+        It is possible to identify that at the moment our Artificial Intelligence is not able to recognize all the pods present in the plant, demonstrating that the model still needs improvements that will be implemented in the next Sprints 
   </p>
 
-  <p align="justify">
-  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Resultado%20Soja-01.png" height="250">
-  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Soja-01.jpg" height="250">
-  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Resultado%20Soja-02.png" height="250">
-  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Soja-02.jpg" height="250">
-  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Resultado%20Soja-03.png" height="250">
-  <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Soja-03.jpg" height="250">
+ | *Plants*   | *Resutls* | 
+ | ---------- | --------- |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-1.png" height="250"> | <p align="justify"> In this image we have 20 pods and 60 seeds, the AI ​​identified exactly 17 plants and 46 seeds </p> |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-2.png" height="330"> | <p align="justify"> In this image we have 26 pods and 75 seeds, the AI ​​identified exactly 23 pods and 62 seeds </p> |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-3.png" height="400"> | <p align="Justify"> In this image we have 18 pods and 54 seeds, the AI ​​identified exactly 18 plants and 48 seeds </p> |
+ 
   </p>
-</p>
-  
+ 
 # Delivery Schedule 🗓
 
  
