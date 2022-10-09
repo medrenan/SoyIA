@@ -52,7 +52,16 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
  | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-2.png" height="330"> | <p align="justify"> In this image we have 26 pods and 75 seeds, the AI ​​identified exactly 23 pods and 62 seeds </p> |
  | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-3.png" height="400"> | <p align="Justify"> In this image we have 18 pods and 54 seeds, the AI ​​identified exactly 18 plants and 48 seeds </p> |
  
+<p align="justify"> 
+        - Considering a sample of 10 test images the AI ​​identified 82.5% of the total pods of the 10 images and through an estimate of 2.6 grains per pod she identified 96.42% of the total grains. This number ended up being greater than the number of pods because as was estimated, in some cases it calculated more grains than there were in the plant which ended up compensating in the images she identified less.
+        </p>
+        
+  <p align="justify">
+  - The average confidence the AI ​​had for each pod it scored was 55.62% (is the confidence if what she marked is in fact a pod and this number is generated
+automatically by AI).
+  
   </p>
+        
  
 # Delivery Schedule 🗓
 
