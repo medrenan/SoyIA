@@ -1,5 +1,5 @@
 <h1 align="center">
-        <img src="/assets/images/logo.png" alt="Logo SoyIA" width="220px" height="220px">
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Logo/logo.png" alt="Logo SoyIA" width="220px" height="220px">
 </h1>
 <p align="center">
         <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="Tensorflow Badg">
@@ -9,8 +9,8 @@
 </p>
 
 <h2 align="right">
-        <img src="https://img.shields.io/badge/status-complete-blue?style=for-the-badge&logo=appveyor" alt="Status: Ongoing">   
-        <img src="https://img.shields.io/badge/sprint-1-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
+        <img src="https://img.shields.io/badge/status-complete-blue?style=for-the-badge&logo=appveyor" alt="Status: Complete">   
+        <img src="https://img.shields.io/badge/sprint-2-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
 </h2>
             
 # <p align="center"> *The Project* 📚
@@ -20,34 +20,54 @@
 # <p align="center"> *What we delivery* 🤔
 
 <p align="justify">In this delivery we focused on the studies and development of AI, we spent most of it with studying and putting into practice already with the images that will be used throughout the project, we had small advances in relation to the AI ​​of its identification with the soybean pods, which is the main requirement for its delivery. </p>
-<p align="center">  
-        <img src="/assets/images/Product%20Backlog%20-%20Sprint%201.png" width="400"/>
-</p>
+
+<p align="justify"> In this 2nd sprint we decided to increment new metrics and improve them, bringing an estimated number of seeds and pods that the plant has. </p>
+       
+ | *Sprint Backlog*   |  *User Story* |
+ | ----------------   | ------------- |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%202.png" width="400"/> | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/User%20Stories/User%20Story%20Sprint%202.png" width="400" /> |
+
+
+## Definition of Ready 📑
+
+We decided to use User Stories with requirements and code to prepare for this release, being defined by the project members.
+
+### Sprint´s Epics
+- Bring in new metrics like the estimated number of seeds and pods from a photo of the plant.
+
+### User Story
+| How | Why |
+| --- | --- |
+| <p align="center"> *As user*, I want the estimated number of seeds and pods of my plant | <p align="center"> *Because* save me the time of counting the number of seeds manually, making my day-to-day work easier. |
+
+## Definition of Done ✔️
+
+We used the code artifact for the new metric to be validated, being reviewed by all project members
+
+- [Source Code](https://github.com/medrenan/SoyIA/tree/main/IA)
          
 # <p align="center"> *Project in Operation* 📱💻
 
 <p align="justify">
   Result of the AI ​​model trained to identify soybean pods present in the plant:
-
-  <p align="center">
-  <img src="/assets/images/Soja-01.jpg" height="250">
-  <img src="/assets/images/Resultado%20Soja-01.png" height="250">
-  <img src="/assets/images/Soja-02.jpg" height="250">
-  <img src="/assets/images/Resultado%20Soja-02.png" height="250">
-  <img src="/assets/images/Soja-03.jpg" height="250">
-  <img src="/assets/images/Resultado%20Soja-03.png" height="250">
-  </p>
-
-  <p align="justify">
-        It is possible to identify that at the moment our Artificial Intelligence is not able to recognize all the pods present in the plant, demonstrating that the model still needs improvements that will be implemented in the next Sprints.
-  </p>
+        
+ | *Plants*   | *Resutls* | 
+ | ---------- | --------- |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-1.png" height="250"> | <p align="justify"> In this image we have 20 pods and 60 seeds, the AI ​​identified exactly 17 plants and 46 seeds </p> |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-2.png" height="330"> | <p align="justify"> In this image we have 26 pods and 75 seeds, the AI ​​identified exactly 23 pods and 62 seeds </p> |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-3.png" height="400"> | <p align="Justify"> In this image we have 18 pods and 54 seeds, the AI ​​identified exactly 18 plants and 48 seeds </p> |
+ 
+<p align = "justify"> It is possible to identify that now our Artificial Intelligence is not able to recognize all the pods present in the plant, demonstrating that the model still needs improvements that will be implemented in the next sprints. 
+<p> In this new advance of our AI, it manages to bring the current number of pods and seeds present in each plant, according to calculations made by us and demonstrated in all the progress of its training, it has an accuracy of 80% of image recognition. </p>
+        </p>
 </p>
+
 
 # <p align="center"> *Burndown* 📉
 
-<p align="justify">During our delivery we had some difficulties in terms of studies but we had a good advance in the middle of our delivery, having no obstacles for its completion.
+<p align="justify">During our delivery we had some difficulties in terms of having to run the front and back end project together, so we had a lot of effort for this task, making it difficult to redesign the app screens by delaying tasks planned for this sprint, focusing on improving the AI.
        
 <p align="center">
-        <img src="/doc/Burndown/Burndown%20Sprint%201.png" height="250">
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Burndown/Burndown%20Sprint%202.png" height="250">
 </p>
 
