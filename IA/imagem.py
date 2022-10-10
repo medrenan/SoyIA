@@ -25,18 +25,38 @@ tfnet2 = TFNet(options)
 tfnet2.load_from_ckpt()
 
 #Le a imagem realizando os pré-processamentos necessários
-original_img = preProcessing(image_path)
-#original_img = cv2.imread("sample_img/teste.jpg")
+#original_img = preProcessing(image_path)
+original_img = cv2.imread("sample_img/3.jpg")
 
 #Reconhece objetos na imagem
-results = tfnet2.return_predict(original_img)
 #results = tfnet2.return_predict(original_img)
+results = tfnet2.return_predict(original_img)
+
+confi = 0
+soyTotal = 0
+beans = 0
 
 if results:
         print("\nResults---------------------------------------------------")
         #Para cada objeto reconhecido printa o nome e com qual confiança
         for y in range(0, len(results)):
-            print("Label:%s\tConfidence:%f"%(results[y]['label'], results[y]['confidence']))
+            print("Label:%s\tConfidence:%f"%(results[y]['label'], results[y]['confidence']* 100))
+            diferencax = results[y]['bottomright']['x'] - results[y]['topleft']['x']
+            diferencay = results[y]['bottomright']['y'] - results[y]['topleft']['y']
+            print("Diferença: %f" %diferencax)
+            if results[y]['confidence'] * 100 >= 25:
+                soyTotal = soyTotal + 1
+                confi = confi + results[y]['confidence'] * 100
+                if diferencax >= 15 or diferencay >= 26:
+                    beans += 3
+                elif diferencax < 15 and diferencax >= 8 and diferencay >= 18 or diferencay < 26 and diferencax >= 8 and diferencay >= 18:
+                    beans += 2
+                else:
+                    beans += 1
+            
+        print('Media de confiança: ', confi/soyTotal)
+        print('Total de soja: ', beans)
+        print('Total de vagens: ', soyTotal)
 
 
 #função para criar o retangulo 
@@ -50,14 +70,22 @@ def boxing(original_img , predictions):
         btm_x = result['bottomright']['x']
         btm_y = result['bottomright']['y']
 
-        confidence = result['confidence']
+        confidence = result['confidence'] * 100
         label = result['label']
+
+        diferencax = result['bottomright']['x'] - result['topleft']['x']
+        diferencay = result['bottomright']['y'] - result['topleft']['y']
         #se for maior que 10% mostra
-        if confidence > 0.1:
-            #desenha o retangulo
-            newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (255,0,0), 2)
-            #escreve o texto
-            newImage = cv2.putText(newImage, label, (top_x, top_y-5), cv2.FONT_HERSHEY_PLAIN , 1, (255,0,0), 1)
+        if confidence > 30:
+            if diferencax >= 15 or diferencay >= 26:
+                newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (0, 0, 255), 1)
+                newImage = cv2.putText(newImage, '3', (top_x+2, top_y+8), cv2.FONT_HERSHEY_PLAIN , 0.7, (0, 0, 255), 1)
+            elif diferencax < 15 and diferencax >= 8 and diferencay >= 18 or diferencay < 26 and diferencax >= 8 and diferencay >= 18:
+                newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (0, 255, 255), 1)
+                newImage = cv2.putText(newImage, '2', (top_x+2, top_y+8), cv2.FONT_HERSHEY_PLAIN , 0.7, (0, 255, 255), 1)
+            else:
+                newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (255, 0, 0), 1)
+                newImage = cv2.putText(newImage, '1', (top_x+2, top_y+8), cv2.FONT_HERSHEY_PLAIN , 0.7, (255, 0, 0), 1)
         
     return newImage
 
