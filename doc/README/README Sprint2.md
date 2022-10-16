@@ -51,11 +51,11 @@ We used the code artifact for the new metric to be validated, being reviewed by 
 <p align="justify">
   Result of the AI ​​model trained to identify soybean pods present in the plant:
         
- | *Plants*   | *Resutls* | 
+ | *Plants*   | *Results* | 
  | ---------- | --------- |
- | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-1.png" height="250"> | <p align="justify"> In this image we have 20 pods and 60 seeds, the AI ​​identified exactly 17 plants and 46 seeds </p> |
- | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-2.png" height="330"> | <p align="justify"> In this image we have 26 pods and 75 seeds, the AI ​​identified exactly 23 pods and 62 seeds </p> |
- | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/Resultado%20Soja-3.png" height="400"> | <p align="Justify"> In this image we have 18 pods and 54 seeds, the AI ​​identified exactly 18 plants and 48 seeds </p> |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/1.png" height="250"> | <p align="justify"> In this image we have 20 pods and 60 seeds, the AI ​​identified exactly 19 pods and 55 seeds </p> |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/2.png" height="330"> | <p align="justify"> In this image we have 26 pods and 75 seeds, the AI ​​identified exactly 25 pods and 65 seeds </p> |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/3.png" height="400"> | <p align="Justify"> In this image we have 18 pods and 54 seeds, the AI ​​identified exactly 29 pods and 60 seeds </p> |
  
 <p align = "justify"> It is possible to identify that now our Artificial Intelligence is not able to recognize all the pods present in the plant, demonstrating that the model still needs improvements that will be implemented in the next sprints. 
 <p> In this new advance of our AI, it manages to bring the current number of pods and seeds present in each plant, according to calculations made by us and demonstrated in all the progress of its training, it has an accuracy of 80% of image recognition. </p>

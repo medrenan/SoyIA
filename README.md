@@ -48,9 +48,9 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
 
  | *Plants*   | *Resutls* | 
  | ---------- | --------- |
- | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/1.png" height="250"> | <p align="justify"> In this image we have 20 pods and 60 seeds, the AI ​​identified exactly 17 plants and 46 seeds </p> |
- | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/2.png" height="330"> | <p align="justify"> In this image we have 26 pods and 75 seeds, the AI ​​identified exactly 26 pods and 72 seeds </p> |
- | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/3.png" height="400"> | <p align="Justify"> In this image we have 18 pods and 54 seeds, the AI ​​identified exactly 24 plants and 48 seeds </p> |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/1.png" height="250"> | <p align="justify"> In this image we have 20 pods and 60 seeds, the AI ​​identified exactly 19 pods and 55 seeds </p> |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/2.png" height="330"> | <p align="justify"> In this image we have 26 pods and 75 seeds, the AI ​​identified exactly 25 pods and 65 seeds </p> |
+ | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/3.png" height="400"> | <p align="Justify"> In this image we have 18 pods and 54 seeds, the AI ​​identified exactly 29 pods and 60 seeds </p> |
  
 <p align="justify"> 
         - Considering a sample of 10 test images the AI ​​identified 82.5% of the total pods of the 10 images and 96.42% of the total soy beans. This last number ended up being greater than the number of pods because in some cases it calculated more beans than there were in the plant which ended up compensating in the images she identified less.
