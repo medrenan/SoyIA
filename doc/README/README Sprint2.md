@@ -21,24 +21,31 @@
 
 <p align="justify">In this delivery we focused on the studies and development of AI, we spent most of it with studying and putting into practice already with the images that will be used throughout the project, we had small advances in relation to the AI ​​of its identification with the soybean pods, which is the main requirement for its delivery. </p>
 
-<p align="justify"> In this 2nd sprint we decided to increment new metrics and improve them, bringing an estimated number of seeds and pods that the plant has. </p>
+<p align="justify"> In this 2nd sprint we decided to increment new metrics and improve them, bringing an estimated number of seeds and pods that the plant has and  </p>
        
  | *Sprint Backlog*   |  *User Story* |
  | ----------------   | ------------- |
  | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%202.png" width="400"/> | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/User%20Stories/User%20Story%20Sprint%202.png" width="400" /> |
-
-
+ 
 ## Definition of Ready 📑
 
 We decided to use User Stories with requirements and code to prepare for this release, being defined by the project members.
 
 ### Sprint´s Epics
 - Bring in new metrics like the estimated number of seeds and pods from a photo of the plant.
+- Instructions for taking the best possible photo of your plant for the most accurate AI result when bringing in the number of seeds.
 
 ### User Story
 | How | Why |
 | --- | --- |
-| <p align="center"> *As user*, I want the estimated number of seeds and pods of my plant | <p align="center"> *Because* save me the time of counting the number of seeds manually, making my day-to-day work easier. |
+| <p align="center"> *As user*, I want the estimated number of seeds and pods of my plant | <p align="center"> *Because* save me the time of counting the number of seeds manually, making my day-to-day work easier. 
+| <p align="center"> *As user*, I want to take the best quality photo of my plant | <p align="center"> *Because* I want the most accurate return of the number of seeds of my plant. |
+        
+### Mockup
+ 
+<p align="center">        
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Mockup/instru%C3%A7%C3%B5es.png" width="220">
+</p>
 
 ## Definition of Done ✔️
 
