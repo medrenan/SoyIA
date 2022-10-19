@@ -28,7 +28,7 @@ def IAprocess(imageStr):
         image = f'./out/imageOUT-{idTemp}.jpg'
     else:
         image = './sample_img/10.jpg'
-
+ 
     #opções para carregar o modelo
     options = {"model": "cfg/yolo-new.cfg",
             "load": -1,
