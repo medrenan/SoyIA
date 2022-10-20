@@ -27,7 +27,7 @@ def IAprocess(imageStr):
         img_file.close() 
         image = f'./out/imageOUT-{idTemp}.jpg'
     else:
-        image = './sample_img/10.jpg'
+        image = './sample_img/9.jpg'
  
     #opções para carregar o modelo
     options = {"model": "cfg/yolo-new.cfg",
@@ -108,6 +108,10 @@ def IAprocess(imageStr):
     
     #retorna o JSON para o endpoint
     return json_info
+
+def deleteSample(imageDel):
+    imageDel="1.jpg"
+    os.remove("sample_img/"+imageDel)
 
 #função para criar o retangulo 
 def boxing(original_img , predictions):
