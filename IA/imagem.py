@@ -7,11 +7,9 @@ import json
 from datetime import datetime
 import base64 
 import os
-from random import randint
 
 import sys
 # sys.path.append('/scripts/processamento-imagem')
-
 # from scripts.imageProcessingScripts import preProcessing
 
 def IAprocess(imageStr):
@@ -27,6 +25,7 @@ def IAprocess(imageStr):
         img_file.close() 
         image = f'./out/imageOUT-{idTemp}.jpg'
     else:
+        #imagem de teste
         image = './sample_img/9.jpg'
  
     #opções para carregar o modelo
@@ -55,7 +54,7 @@ def IAprocess(imageStr):
                 print("Label:%s\tConfidence:%f"%(results[y]['label'], results[y]['confidence']* 100))
                 diferencax = results[y]['bottomright']['x'] - results[y]['topleft']['x']
                 diferencay = results[y]['bottomright']['y'] - results[y]['topleft']['y']
-                if results[y]['confidence'] * 100 >= 25:
+                if results[y]['confidence'] * 100 >= 40:
                     soyTotal = soyTotal + 1
                     confi = confi + results[y]['confidence'] * 100
                     if diferencax >= 15 or diferencay >= 26:
@@ -129,8 +128,8 @@ def boxing(original_img , predictions):
 
         diferencax = result['bottomright']['x'] - result['topleft']['x']
         diferencay = result['bottomright']['y'] - result['topleft']['y']
-        #se for maior que 10% mostra
-        if confidence > 25:
+        #se for maior que 40% mostra
+        if confidence > 40:
             if diferencax >= 15 or diferencay >= 26:
                 newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (0, 0, 255), 1)
                 newImage = cv2.putText(newImage, '3', (top_x+2, top_y+8), cv2.FONT_HERSHEY_PLAIN , 0.7, (0, 0, 255), 1)
