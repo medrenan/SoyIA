@@ -1,7 +1,7 @@
 <annotation>
-	<folder>DatasetPendent</folder>
+	<folder>images</folder>
 	<filename>16fc7cf5-84b1-4e37-87ad-c021fe989f2e.jpg</filename>
-	<path>C:\Users\crist\OneDrive\Área de Trabalho\API\SoyIA\IA\DatasetPendent\16fc7cf5-84b1-4e37-87ad-c021fe989f2e.jpg</path>
+	<path>C:\Users\crist\OneDrive\desktop\Soya\SoyIA\IA\images\16fc7cf5-84b1-4e37-87ad-c021fe989f2e.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -417,6 +417,54 @@
 			<ymin>258</ymin>
 			<xmax>1018</xmax>
 			<ymax>279</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>752</xmin>
+			<ymin>238</ymin>
+			<xmax>765</xmax>
+			<ymax>268</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>703</xmin>
+			<ymin>245</ymin>
+			<xmax>728</xmax>
+			<ymax>273</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>823</xmin>
+			<ymin>163</ymin>
+			<xmax>843</xmax>
+			<ymax>177</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>826</xmin>
+			<ymin>153</ymin>
+			<xmax>856</xmax>
+			<ymax>160</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
-<annotation>
-	<folder>DatasetPendent</folder>
+<annotation verified="yes">
+	<folder>images</folder>
 	<filename>04d9a17b-e664-4f0c-a669-c7cf519c8ef3.jpg</filename>
-	<path>C:\Users\crist\OneDrive\Área de Trabalho\API\SoyIA\IA\DatasetPendent\04d9a17b-e664-4f0c-a669-c7cf519c8ef3.jpg</path>
+	<path>C:\Users\crist\OneDrive\desktop\Soya\SoyIA\IA\images\04d9a17b-e664-4f0c-a669-c7cf519c8ef3.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -465,6 +465,18 @@
 			<ymin>359</ymin>
 			<xmax>373</xmax>
 			<ymax>372</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>561</xmin>
+			<ymin>372</ymin>
+			<xmax>574</xmax>
+			<ymax>389</ymax>
 		</bndbox>
 	</object>
 </annotation>
