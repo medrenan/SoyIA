@@ -1,7 +1,7 @@
 <annotation>
-	<folder>01_SELECT22</folder>
+	<folder>images</folder>
 	<filename>0e8d9b3e-3cf0-467c-b134-1d72ef08cc1a_6.jpg</filename>
-	<path>C:\Users\rafae\Desktop\SoyIA_\Dataset\01_SELECT22\0e8d9b3e-3cf0-467c-b134-1d72ef08cc1a_6.jpg</path>
+	<path>C:\Users\rafae\Desktop\SoyIA\IA\images\0e8d9b3e-3cf0-467c-b134-1d72ef08cc1a_6.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -189,6 +189,42 @@
 			<ymin>79</ymin>
 			<xmax>31</xmax>
 			<ymax>94</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>47</xmin>
+			<ymin>378</ymin>
+			<xmax>57</xmax>
+			<ymax>400</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>15</xmin>
+			<ymin>161</ymin>
+			<xmax>32</xmax>
+			<ymax>171</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>28</xmin>
+			<ymin>127</ymin>
+			<xmax>38</xmax>
+			<ymax>146</ymax>
 		</bndbox>
 	</object>
 </annotation>
