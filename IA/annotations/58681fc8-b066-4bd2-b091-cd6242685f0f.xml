@@ -1,13 +1,13 @@
 <annotation>
 	<folder>images</folder>
-	<filename>8b2a1b89-d731-4992-a8ab-7709894f989b_1_jpg.rf.6674421d0f306b0d996fffb3dcc2cb28.jpg</filename>
-	<path>C:\Users\rafae\Desktop\SoyIA\IA\images\8b2a1b89-d731-4992-a8ab-7709894f989b_1_jpg.rf.6674421d0f306b0d996fffb3dcc2cb28.jpg</path>
+	<filename>58681fc8-b066-4bd2-b091-cd6242685f0f.jpg</filename>
+	<path>C:\Users\rafae\Desktop\SoyIA\IA\images\58681fc8-b066-4bd2-b091-cd6242685f0f.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>148</width>
-		<height>558</height>
+		<width>1080</width>
+		<height>810</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>60</xmin>
-			<ymin>362</ymin>
-			<xmax>74</xmax>
-			<ymax>380</ymax>
+			<xmin>215</xmin>
+			<ymin>321</ymin>
+			<xmax>226</xmax>
+			<ymax>343</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>68</xmin>
-			<ymin>356</ymin>
-			<xmax>75</xmax>
-			<ymax>366</ymax>
+			<xmin>199</xmin>
+			<ymin>276</ymin>
+			<xmax>211</xmax>
+			<ymax>295</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>68</xmin>
-			<ymin>328</ymin>
-			<xmax>79</xmax>
-			<ymax>358</ymax>
+			<xmin>258</xmin>
+			<ymin>228</ymin>
+			<xmax>272</xmax>
+			<ymax>246</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>35</xmin>
-			<ymin>305</ymin>
-			<xmax>58</xmax>
-			<ymax>328</ymax>
+			<xmin>289</xmin>
+			<ymin>173</ymin>
+			<xmax>311</xmax>
+			<ymax>187</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>47</xmin>
-			<ymin>259</ymin>
-			<xmax>70</xmax>
-			<ymax>275</ymax>
+			<xmin>420</xmin>
+			<ymin>163</ymin>
+			<xmax>439</xmax>
+			<ymax>171</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +77,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>83</xmin>
-			<ymin>281</ymin>
-			<xmax>102</xmax>
-			<ymax>293</ymax>
+			<xmin>462</xmin>
+			<ymin>389</ymin>
+			<xmax>473</xmax>
+			<ymax>409</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>49</xmin>
-			<ymin>273</ymin>
-			<xmax>69</xmax>
-			<ymax>288</ymax>
+			<xmin>460</xmin>
+			<ymin>317</ymin>
+			<xmax>473</xmax>
+			<ymax>329</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>74</xmin>
-			<ymin>237</ymin>
-			<xmax>86</xmax>
-			<ymax>261</ymax>
+			<xmin>493</xmin>
+			<ymin>365</ymin>
+			<xmax>508</xmax>
+			<ymax>383</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>54</xmin>
-			<ymin>232</ymin>
-			<xmax>71</xmax>
-			<ymax>241</ymax>
+			<xmin>522</xmin>
+			<ymin>348</ymin>
+			<xmax>534</xmax>
+			<ymax>374</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>54</xmin>
-			<ymin>239</ymin>
-			<xmax>67</xmax>
-			<ymax>263</ymax>
+			<xmin>526</xmin>
+			<ymin>287</ymin>
+			<xmax>540</xmax>
+			<ymax>310</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -137,10 +137,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>61</xmin>
-			<ymin>178</ymin>
-			<xmax>76</xmax>
-			<ymax>190</ymax>
+			<xmin>498</xmin>
+			<ymin>199</ymin>
+			<xmax>512</xmax>
+			<ymax>212</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -149,34 +149,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>74</xmin>
-			<ymin>105</ymin>
-			<xmax>100</xmax>
-			<ymax>120</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>soja</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>96</xmin>
-			<ymin>76</ymin>
-			<xmax>111</xmax>
-			<ymax>100</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>soja</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>88</xmin>
-			<ymin>72</ymin>
-			<xmax>97</xmax>
-			<ymax>84</ymax>
+			<xmin>568</xmin>
+			<ymin>386</ymin>
+			<xmax>582</xmax>
+			<ymax>412</ymax>
 		</bndbox>
 	</object>
 </annotation>
