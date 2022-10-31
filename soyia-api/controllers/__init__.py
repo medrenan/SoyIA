@@ -19,13 +19,17 @@ def grainsEstimate(id):
     return res
 
 @fileUpload_bp.route("/upload",methods=['POST'])
-def uploadFile(req):
-    req = request.form
-    file = req.get("file",None)
+def uploadFile():
+    file = request.files.get("file",None)
+    folderPath = request.form.get('folderPath',None)
 
     if(file is None):
         res = make_response({"mensagem":'falta arquivo'},400)
         return res
+
+    if(folderPath is None):
+        res = make_response({"mensagem":'falta caminho'},400)
+        return res
     
-    res = fileUpload(file)
+    res = fileUpload(file,folderPath)
     return res
