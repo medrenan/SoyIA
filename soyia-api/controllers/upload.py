@@ -17,7 +17,8 @@ def fileUpload(file,folderPath):
         blob.upload_from_filename(fileName)
         blob.make_public()
         print("your file url", blob.public_url)
-    except:
+    except Exception as inst:
+        print(inst.args)
         res = make_response({"mensagem":"Houve um erro ao tentar fazer upload da mensagem"},400)
         return res
-    
+
