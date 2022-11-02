@@ -95,4 +95,16 @@
 			<ymax>418</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>629</xmin>
+			<ymin>513</ymin>
+			<xmax>658</xmax>
+			<ymax>531</ymax>
+		</bndbox>
+	</object>
 </annotation>
