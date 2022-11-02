@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, "../IA")
 from flask import Flask,request
 from flask_cors import CORS
 from models.envVariables import port,host

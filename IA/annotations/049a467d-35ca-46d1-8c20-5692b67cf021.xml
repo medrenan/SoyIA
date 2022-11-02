@@ -1,7 +1,7 @@
 <annotation>
-	<folder>teste</folder>
+	<folder>images</folder>
 	<filename>049a467d-35ca-46d1-8c20-5692b67cf021.jpg</filename>
-	<path>C:\Users\crist\OneDrive\Desktop\Nova pasta\teste\049a467d-35ca-46d1-8c20-5692b67cf021.jpg</path>
+	<path>C:\Users\rafae\Desktop\SoyIA\IA\images\049a467d-35ca-46d1-8c20-5692b67cf021.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -321,6 +321,42 @@
 			<ymin>292</ymin>
 			<xmax>154</xmax>
 			<ymax>356</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>286</xmin>
+			<ymin>295</ymin>
+			<xmax>333</xmax>
+			<ymax>377</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>342</xmin>
+			<ymin>285</ymin>
+			<xmax>367</xmax>
+			<ymax>303</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>soja</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>298</xmin>
+			<ymin>489</ymin>
+			<xmax>328</xmax>
+			<ymax>544</ymax>
 		</bndbox>
 	</object>
 </annotation>
