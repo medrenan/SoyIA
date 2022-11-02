@@ -34,9 +34,6 @@ class TFNet(object):
 	load_from_ckpt = help.load_from_ckpt
 
 	def __init__(self, FLAGS, darknet = None):
-		# tf.compat.v1.disable_v2_behavior()
-		
-
 		self.ntrain = 0
 
 		if isinstance(FLAGS, dict):

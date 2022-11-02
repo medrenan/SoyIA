@@ -16,21 +16,25 @@ import sys
 
 def IAprocess(imageStr):
     image= ""
+    samples = list()
     idTemp = str(datetime.now().strftime('%Y-%m-%d-%H-%M-%S'))
     if imageStr != 'test':
         #Converte a string em uma imagem 
         imageStr = imageStr.encode('utf-8')
         decoded_data=base64.b64decode((imageStr))
     
-        img_file = open(f'./out/imageOUT-{idTemp}.jpg', 'wb')
+        img_file = open(f'../IA/out/imageOUT-{idTemp}.jpg', 'wb')
         img_file.write(decoded_data)
         img_file.close() 
-        image = f'./out/imageOUT-{idTemp}.jpg'
+        image = f'../IA/out/imageOUT-{idTemp}.jpg'
     else:
-        image = './sample_img/1.jpg'
+        for _, _, arquivo in os.walk('../IA/sample_img'):
+            samples = arquivo
+            print(samples)
+        image = '../IA/sample_img/'+ samples[8]
 
     #opções para carregar o modelo
-    options = {"model": "cfg/yolo-new.cfg",
+    options = {"model": "../IA/cfg/yolo-new.cfg",
             "load": -1,
             "gpu": 1.0}
     #configura a rede com as opções
@@ -54,12 +58,12 @@ def IAprocess(imageStr):
                 print("Label:%s\tConfidence:%f"%(results[y]['label'], results[y]['confidence']* 100))
                 diferencax = results[y]['bottomright']['x'] - results[y]['topleft']['x']
                 diferencay = results[y]['bottomright']['y'] - results[y]['topleft']['y']
-                if results[y]['confidence'] * 100 >= 25:
+                if results[y]['confidence'] * 100 >= 35:
                     soyTotal = soyTotal + 1
                     confi = confi + results[y]['confidence'] * 100
-                    if diferencax >= 15 or diferencay >= 26:
+                    if diferencax >= 17 or diferencay >= 17:
                         beans += 3
-                    elif diferencax < 15 and diferencax >= 8 and diferencay >= 18 or diferencay < 26 and diferencax >= 8 and diferencay >= 18:
+                    elif diferencax < 17 and diferencax >= 10 and diferencay < 17 and diferencay >= 10:
                         beans += 2
                     else:
                         beans += 1
@@ -75,8 +79,8 @@ def IAprocess(imageStr):
     #converte a imagem de saida em JSON
     imageString = "" 
     idTemp2 = str(datetime.now().strftime('%Y-%m-%d-%H-%M-%S'))
-    cv2.imwrite(f"./out/ImageOUT2-{idTemp2}.jpg", boxing(original_img, results))
-    with open(f"./out/ImageOUT2-{idTemp2}.jpg", "rb") as image2string: 
+    cv2.imwrite(f"../IA/out/ImageOUT2-{idTemp2}.jpg", boxing(original_img, results))
+    with open(f"../IA/out/ImageOUT2-{idTemp2}.jpg", "rb") as image2string: 
         imageString = str(base64.b64encode(image2string.read()), 'utf-8')
 
     #cria um JSON com a imagem e os resultados
@@ -92,21 +96,22 @@ def IAprocess(imageStr):
     json_info = json.dumps(dictionary, indent = 5) 
 
     #salva o JSON (opcional para testes, pode ser comentado)
-    with open(f"./out/{date}.json", "w") as outfile: 
-        outfile.write(json_info) 
+    # with open(f"./out/{date}.json", "w") as outfile: 
+    #     outfile.write(json_info) 
 
     #mostra imagem (opcional para testes, pode ser comentado)
-    cv2.imshow('image',boxing(original_img, results))
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    # cv2.imshow('image',boxing(original_img, results))
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
-    if os.path.isfile(f"./out/ImageOUT2-{idTemp2}.jpg"):
-        os.remove(f"./out/ImageOUT2-{idTemp2}.jpg")
-    if os.path.isfile(f"./out/imageOUT-{idTemp}.jpg"):
-        os.remove(f"./out/imageOUT-{idTemp}.jpg")
+    #Exclui as imagens geradas (comentar para deixa-las salvas)
+    if os.path.isfile(f"../IA/out/ImageOUT2-{idTemp2}.jpg"):
+        os.remove(f"../IA/out/ImageOUT2-{idTemp2}.jpg")
+    if os.path.isfile(f"../IA/out/imageOUT-{idTemp}.jpg"):
+        os.remove(f"../IA/out/imageOUT-{idTemp}.jpg")
     
     #retorna o JSON para o endpoint
-    return json_info
+    return dictionary
 
 #função para criar o retangulo 
 def boxing(original_img , predictions):
@@ -124,12 +129,13 @@ def boxing(original_img , predictions):
 
         diferencax = result['bottomright']['x'] - result['topleft']['x']
         diferencay = result['bottomright']['y'] - result['topleft']['y']
-        #se for maior que 10% mostra
-        if confidence > 30:
-            if diferencax >= 15 or diferencay >= 26:
+
+        #se for maior que 40% mostra
+        if confidence > 35:
+            if diferencax >= 17 or diferencay >= 17:
                 newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (0, 0, 255), 1)
                 newImage = cv2.putText(newImage, '3', (top_x+2, top_y+8), cv2.FONT_HERSHEY_PLAIN , 0.7, (0, 0, 255), 1)
-            elif diferencax < 15 and diferencax >= 8 and diferencay >= 18 or diferencay < 26 and diferencax >= 8 and diferencay >= 18:
+            elif diferencax < 17 and diferencax >= 10 and diferencay < 17 and diferencay >= 10:
                 newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (0, 255, 255), 1)
                 newImage = cv2.putText(newImage, '2', (top_x+2, top_y+8), cv2.FONT_HERSHEY_PLAIN , 0.7, (0, 255, 255), 1)
             else:
@@ -146,6 +152,6 @@ def boxing(original_img , predictions):
 # IAprocess(imagestr)
 
 #Chamada do metodo para testar sem leitura do json (apenas para testes)
-IAprocess('test')
+#IAprocess('test')
 
 

@@ -8,10 +8,10 @@ class argHandler(dict):
     def setDefaults(self):
         self.define('imgdir', './sample_img/', 'path to testing directory with images')
         self.define('binary', './bin/', 'path to .weights directory')
-        self.define('config', './cfg/', 'path to .cfg directory')
+        self.define('config', '../IA/cfg/', 'path to .cfg directory')
         self.define('dataset', '../pascal/VOCdevkit/IMG/', 'path to dataset directory')
-        self.define('labels', 'labels.txt', 'path to labels file')
-        self.define('backup', './ckpt/', 'path to backup folder')
+        self.define('labels', '../IA/labels.txt', 'path to labels file')
+        self.define('backup', '../IA/ckpt/', 'path to backup folder')
         self.define('summary', '', 'path to TensorBoard summaries directory')
         self.define('annotation', '../pascal/VOCdevkit/ANN/', 'path to annotation directory')
         self.define('threshold', -0.1, 'detection threshold')
@@ -34,7 +34,7 @@ class argHandler(dict):
         self.define('json', True, 'Outputs bounding box information in json format.')
         self.define('saveVideo', False, 'Records video from input video or camera')
         self.define('pbLoad', '', 'path to .pb protobuf file (metaLoad must also be specified)')
-        self.define('metaLoad', './ckpt/', 'path to .meta file generated during --savepb that corresponds to .pb file')
+        self.define('metaLoad', '../IA/ckpt/', 'path to .meta file generated during --savepb that corresponds to .pb file')
 
     def define(self, argName, default, description):
         self[argName] = default
