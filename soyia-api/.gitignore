@@ -1,0 +1,8 @@
+/myenv
+/controllers/__pycache__
+/db/__pycache__
+/models/__pycache__
+/__pycache__
+/tests/__pycache__
+/db/service_account.json
+/.env
