@@ -10,7 +10,7 @@
 
 <h2 align="right">
         <img src="https://img.shields.io/badge/status-ongoing-blue?style=for-the-badge&logo=appveyor" alt="Status: Ongoing">   
-        <img src="https://img.shields.io/badge/sprint-2-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
+        <img src="https://img.shields.io/badge/sprint-3-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
 </h2>
             
 
@@ -40,26 +40,10 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
 
 # Project in Operation 📱
 
-<p align="justify">
-  Result of the AI ​​model trained to identify soybean pods present in the plant:
    <p align="justify">
-        It is possible to identify that at the moment our Artificial Intelligence is not able to recognize all the pods present in the plant, demonstrating that the model still needs improvements that will be implemented in the next Sprints 
-  </p>
-
- | *Plants*   | *Resutls* | 
- | ---------- | --------- |
- | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/1.png" height="250"> | <p align="justify"> In this image we have 20 pods and 60 seeds, the AI ​​identified exactly 19 pods and 55 seeds </p> |
- | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/2.png" height="330"> | <p align="justify"> In this image we have 26 pods and 75 seeds, the AI ​​identified exactly 25 pods and 65 seeds </p> |
- | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Imagens/Results%20IA/Results%20IA%20Sprint%202/3.png" height="400"> | <p align="Justify"> In this image we have 18 pods and 54 seeds, the AI ​​identified exactly 29 pods and 60 seeds </p> |
- 
-<p align="justify"> 
-        - Considering a sample of 10 test images the AI ​​identified 82.5% of the total pods of the 10 images and 96.42% of the total soy beans. This last number ended up being greater than the number of pods because in some cases it calculated more beans than there were in the plant which ended up compensating in the images she identified less.
-        </p>
+        In this 3rd Sprint we developed the main functionality for the user which would be the identification of pod seeds from the application, allowing the user to take a picture of their pod and then send to AI to identify the seeds thus returning the number of seeds present in the image.
         
-  <p align="justify">
-  - The average confidence the AI ​​had for each pod it scored was 55.62% (is the confidence if what she marked is in fact a pod and this number is generated
-automatically by AI).
-  
+        Em desenvolvimento
   </p>
         
  
@@ -70,7 +54,7 @@ automatically by AI).
 | ---------- | ------  | ------------- | ------    | --------- |
 |  Sprint 1  | AI modeling and training to identify soybean pods present in plant photos. | 18/09 | [View](https://github.com/medrenan/SoyIA/edit/main/doc/README/README%20Sprint1.md) | [Download](https://github.com/medrenan/SoyIA/releases/tag/sprint1) |
 |  Sprint 2  | Implement and train image recognition and classification AI for seed count in soybean pods.  | 09/10 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint2.md) | [Download](#)|
-|  Sprint 3  | Implementing AI in the application with user core functionalities. | 06/11 | [-](#) | [-](#) |
+|  Sprint 3  | Implementing AI in the application with user core functionalities. | 06/11 | [View](https://github.com/medrenan/SoyIA/commit/be06fe0babd3776311ec155a108a34d500ab1b82) | [Download](#) |
 |  Sprint 4  | Improved effectiveness of seed identification and user functionality. | 27/11 | [-](#) | [-](#) |     
 
 # Team 👩‍💻👨‍💻
