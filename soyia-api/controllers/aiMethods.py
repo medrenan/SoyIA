@@ -1,5 +1,5 @@
 from flask import make_response,jsonify
-from imagem import IAprocess
+# from imagem import IAprocess
 
 
 def getGrainsEstimate(cultiveId):
@@ -7,9 +7,9 @@ def getGrainsEstimate(cultiveId):
     teste = IAprocess('test')
     res = teste['graos']
 
-    if(res is not None){
+    if(res is not None):
         return make_response(res)
-    }
+    
     
     return make_response({
         "sample":{
