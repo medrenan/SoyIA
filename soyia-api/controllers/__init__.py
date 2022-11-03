@@ -1,4 +1,4 @@
-from flask import request, jsonify,Blueprint,make_response
+from flask import request, jsonify,Blueprint,make_response, request_started
 
 from controllers.general import hello
 from controllers.aiMethods import getGrainsEstimate
@@ -20,8 +20,8 @@ def grainsEstimate(id):
 
 @fileUpload_bp.route("/upload",methods=['POST'])
 def uploadFile():
-    file = request.files.get("file",None)
-    folderPath = request.form.get('folderPath',None)
+    folderPath = request.get_json()['folderPath']
+    file = request.get_json()['file']
 
     if(file is None):
         res = make_response({"mensagem":'falta arquivo'},400)
@@ -30,6 +30,6 @@ def uploadFile():
     if(folderPath is None):
         res = make_response({"mensagem":'falta caminho'},400)
         return res
-    
+
     res = fileUpload(file,folderPath)
     return res
