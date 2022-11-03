@@ -9,6 +9,14 @@ teste = IAprocess('test',True)
 #IATest()
 
 def getGrainsEstimate(cultiveId):
+    #Substituir o 'test' pela imagem
+    teste = IAprocess('test')
+    res = teste['graos']
+
+    if(res is not None){
+        return make_response(res)
+    }
+    
     return make_response({
         "sampleOne":{
             # "plant1": teste['graos']
