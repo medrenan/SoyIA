@@ -14,11 +14,11 @@ import sys
 
 # from scripts.imageProcessingScripts import preProcessing
 
-def IAprocess(imageStr):
+def IAprocess(imageStr,test):
     image= ""
     samples = list()
     idTemp = str(datetime.now().strftime('%Y-%m-%d-%H-%M-%S'))
-    if imageStr != 'test':
+    if test == False:
         #Converte a string em uma imagem 
         imageStr = imageStr.encode('utf-8')
         decoded_data=base64.b64decode((imageStr))
@@ -27,11 +27,14 @@ def IAprocess(imageStr):
         img_file.write(decoded_data)
         img_file.close() 
         image = f'../IA/out/imageOUT-{idTemp}.jpg'
-    else:
+
+    elif test == True and imageStr == 'test':
         for _, _, arquivo in os.walk('../IA/sample_img'):
-            samples = arquivo
-            print(samples)
-        image = '../IA/sample_img/'+ samples[8]
+         samples = arquivo
+        image = '../IA/sample_img/'+samples[7]
+    else:
+        print(imageStr)
+        image = '../IA/sample_img/' + imageStr
 
     #opções para carregar o modelo
     options = {"model": "../IA/cfg/yolo-new.cfg",
@@ -58,7 +61,7 @@ def IAprocess(imageStr):
                 print("Label:%s\tConfidence:%f"%(results[y]['label'], results[y]['confidence']* 100))
                 diferencax = results[y]['bottomright']['x'] - results[y]['topleft']['x']
                 diferencay = results[y]['bottomright']['y'] - results[y]['topleft']['y']
-                if results[y]['confidence'] * 100 >= 35:
+                if results[y]['confidence'] * 100 >= 40:
                     soyTotal = soyTotal + 1
                     confi = confi + results[y]['confidence'] * 100
                     if diferencax >= 17 or diferencay >= 17:
@@ -131,7 +134,7 @@ def boxing(original_img , predictions):
         diferencay = result['bottomright']['y'] - result['topleft']['y']
 
         #se for maior que 40% mostra
-        if confidence > 35:
+        if confidence > 40:
             if diferencax >= 17 or diferencay >= 17:
                 newImage = cv2.rectangle(newImage, (top_x, top_y), (btm_x, btm_y), (0, 0, 255), 1)
                 newImage = cv2.putText(newImage, '3', (top_x+2, top_y+8), cv2.FONT_HERSHEY_PLAIN , 0.7, (0, 0, 255), 1)
@@ -144,6 +147,55 @@ def boxing(original_img , predictions):
 
     return newImage
 
+#Gerar dados de 28 imagens de teste para medir a precisão do modelo
+def IATest():
+    with open('../IA/sampleInfos.json') as json_file:
+        data = json.load(json_file)
+
+    for _, _, arquivo in os.walk('../IA/sample_img'):
+        samples = arquivo
+
+    graos = []
+    vagens = []
+    confiancaMedia = []
+
+    for i in range(0, len(samples)):
+        img = IAprocess(samples[i], True)
+        graos.append(img['graos'])
+        vagens.append(img['vagens'])
+        confiancaMedia.append(img['confianca'])
+
+    graosReal = 0
+    vagensReal = 0
+
+    graosTotal = 0
+    vagensTotal = 0
+    confiancaMediaTotal = 0
+
+    for i in range(0, len(data["n_graos"])):
+        graosTotal += graos[i]
+        vagensTotal += vagens[i]
+        confiancaMediaTotal += confiancaMedia[i]
+
+        graosReal += data["n_graos"][i]
+        vagensReal += data["n_vagens"][i]
+
+    print('Graos: ', graosTotal, 'Vagens: ', vagensTotal, 'VagensReal: ', vagensReal, 'GraosReal: ', graosReal)
+    PorcentagemVagens = (vagensTotal * 100) / vagensReal
+    PorcentagemGraos = (graosTotal * 100) / graosReal
+    PorcentagemConfianca = confiancaMediaTotal / len(samples)
+    id = str(datetime.now().strftime('%m-%d'))
+
+    dados = {
+        "date": id,
+        "PorcentagemVagens": PorcentagemVagens,
+        "PorcentagemGraos": PorcentagemGraos,
+        "PorcentagemConfianca": PorcentagemConfianca
+    }
+    json_info = json.dumps(dados, indent = 4) 
+    with open(f"../IA/out/sampleResults/{id}.json", "w") as outfile: 
+     outfile.write(json_info) 
+        
 
 #Chamada do metodo para testar leitura do json (apenas para testes)
 # with open('./out/2022-10-10-23-35.json', 'r') as openfile: 
