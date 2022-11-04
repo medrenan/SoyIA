@@ -5,11 +5,6 @@
 # Weight files
 bin/
 
-# Sample image data
-# sample_img/*.jpg
-# !sample_img/sample_*.jpg
-# sample_img/out/*
-
 # Annotated test results
 results/
 
