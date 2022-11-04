@@ -5,6 +5,8 @@
 # Weight files
 bin/
 
+oldModels/
+
 # Annotated test results
 results/
 

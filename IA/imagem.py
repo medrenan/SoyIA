@@ -95,6 +95,7 @@ def IAprocess(imageStr,test):
         "vagens" : soyTotal, 
         "image" : imageString
     } 
+
     #JSON com os resultados
     json_info = json.dumps(dictionary, indent = 5) 
 
@@ -159,6 +160,7 @@ def IATest():
     graos = []
     vagens = []
     confiancaMedia = []
+    detects = {}
 
     for i in range(0, len(samples)):
         img = IAprocess(samples[i], True)
@@ -181,17 +183,22 @@ def IATest():
         graosReal += data["n_graos"][i]
         vagensReal += data["n_vagens"][i]
 
+        detects[samples[i]] = {'graosReais': data["n_graos"][i], 'vagensReais': data["n_vagens"][i], 'graosDetectados': graos[i], 'vagensDetectadas': vagens[i], 'confiancaMedia': confiancaMedia[i]}
+
     print('Graos: ', graosTotal, 'Vagens: ', vagensTotal, 'VagensReal: ', vagensReal, 'GraosReal: ', graosReal)
     PorcentagemVagens = (vagensTotal * 100) / vagensReal
     PorcentagemGraos = (graosTotal * 100) / graosReal
     PorcentagemConfianca = confiancaMediaTotal / len(samples)
-    id = str(datetime.now().strftime('%m-%d'))
+
+    for _, _, arquivo in os.walk('../IA/ckpt'):
+        id = arquivo[4].split('.')[0]
 
     dados = {
-        "date": id,
+        "model": id,
         "PorcentagemVagens": PorcentagemVagens,
         "PorcentagemGraos": PorcentagemGraos,
-        "PorcentagemConfianca": PorcentagemConfianca
+        "PorcentagemConfianca": PorcentagemConfianca,
+        "Dados reais x Detectados": detects
     }
     json_info = json.dumps(dados, indent = 4) 
     with open(f"../IA/out/sampleResults/{id}.json", "w") as outfile: 

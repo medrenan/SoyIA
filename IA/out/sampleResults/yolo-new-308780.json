@@ -1,0 +1,211 @@
+{
+    "model": "yolo-new-308780",
+    "PorcentagemVagens": 81.14649681528662,
+    "PorcentagemGraos": 96.15598885793872,
+    "PorcentagemConfianca": 64.12594897385853,
+    "Dados reais x Detectados": {
+        "1a444f61-6811-4c8b-adfc-f47f15c76c7e_1.jpg": {
+            "graosReais": 60,
+            "vagensReais": 20,
+            "graosDetectados": 57,
+            "vagensDetectadas": 22,
+            "confiancaMedia": 67.18489473516291
+        },
+        "1a444f61-6811-4c8b-adfc-f47f15c76c7e_2.jpg": {
+            "graosReais": 62,
+            "vagensReais": 22,
+            "graosDetectados": 73,
+            "vagensDetectadas": 27,
+            "confiancaMedia": 64.11917209625244
+        },
+        "2b22ec68-9e56-4e4e-9b0e-43f024ef6cb3_1.jpg": {
+            "graosReais": 75,
+            "vagensReais": 26,
+            "graosDetectados": 63,
+            "vagensDetectadas": 21,
+            "confiancaMedia": 62.264651485851836
+        },
+        "2effdf6a-5fc1-4e5f-a0f6-c33a2cfdb3ae_1.jpg": {
+            "graosReais": 60,
+            "vagensReais": 25,
+            "graosDetectados": 42,
+            "vagensDetectadas": 14,
+            "confiancaMedia": 64.18175186429706
+        },
+        "3a34cb0d-73ee-48a2-a52d-dd54cf7cd36d_1.jpg": {
+            "graosReais": 54,
+            "vagensReais": 18,
+            "graosDetectados": 42,
+            "vagensDetectadas": 18,
+            "confiancaMedia": 70.74761092662811
+        },
+        "3e091684-e18a-4f50-a5ff-36987df56d7c_1.jpg": {
+            "graosReais": 105,
+            "vagensReais": 44,
+            "graosDetectados": 100,
+            "vagensDetectadas": 36,
+            "confiancaMedia": 66.955676012569
+        },
+        "3eadd344-2089-44ad-ba93-c3186b6fcee1_1.jpg": {
+            "graosReais": 45,
+            "vagensReais": 21,
+            "graosDetectados": 51,
+            "vagensDetectadas": 17,
+            "confiancaMedia": 68.44495306996738
+        },
+        "3eadd344-2089-44ad-ba93-c3186b6fcee1_2.jpg": {
+            "graosReais": 28,
+            "vagensReais": 12,
+            "graosDetectados": 39,
+            "vagensDetectadas": 13,
+            "confiancaMedia": 63.66910132078024
+        },
+        "3f0ee4c1-be1e-41a1-bba5-061701d60fe6_1.jpg": {
+            "graosReais": 74,
+            "vagensReais": 32,
+            "graosDetectados": 51,
+            "vagensDetectadas": 20,
+            "confiancaMedia": 64.83967915177345
+        },
+        "3f78734d-a787-4f85-a43d-066a3b7abc10_1.jpg": {
+            "graosReais": 37,
+            "vagensReais": 19,
+            "graosDetectados": 53,
+            "vagensDetectadas": 19,
+            "confiancaMedia": 68.59340903006103
+        },
+        "3f78734d-a787-4f85-a43d-066a3b7abc10_2.jpg": {
+            "graosReais": 52,
+            "vagensReais": 24,
+            "graosDetectados": 52,
+            "vagensDetectadas": 19,
+            "confiancaMedia": 67.99745496950652
+        },
+        "4a34a985-57ba-4848-8b2c-c6185bb6a540_1.jpg": {
+            "graosReais": 97,
+            "vagensReais": 41,
+            "graosDetectados": 90,
+            "vagensDetectadas": 30,
+            "confiancaMedia": 63.911081751187645
+        },
+        "4a34a985-57ba-4848-8b2c-c6185bb6a540_2.jpg": {
+            "graosReais": 100,
+            "vagensReais": 41,
+            "graosDetectados": 78,
+            "vagensDetectadas": 26,
+            "confiancaMedia": 65.10322323212257
+        },
+        "4b5df495-cb4c-4ffb-a613-212a9461bc5c_1.jpg": {
+            "graosReais": 66,
+            "vagensReais": 31,
+            "graosDetectados": 64,
+            "vagensDetectadas": 24,
+            "confiancaMedia": 66.4348915219307
+        },
+        "4b5df495-cb4c-4ffb-a613-212a9461bc5c_2.jpg": {
+            "graosReais": 37,
+            "vagensReais": 21,
+            "graosDetectados": 50,
+            "vagensDetectadas": 18,
+            "confiancaMedia": 64.38368260860443
+        },
+        "4b5df495-cb4c-4ffb-a613-212a9461bc5c_3.jpg": {
+            "graosReais": 49,
+            "vagensReais": 24,
+            "graosDetectados": 62,
+            "vagensDetectadas": 21,
+            "confiancaMedia": 62.0426234744844
+        },
+        "4d596103-a2a7-4e89-aa61-938cb189c8ce_1.jpg": {
+            "graosReais": 52,
+            "vagensReais": 21,
+            "graosDetectados": 42,
+            "vagensDetectadas": 14,
+            "confiancaMedia": 72.27063583476203
+        },
+        "4d61f5fb-3be5-4b70-8a5a-e40a640727b8_1.jpg": {
+            "graosReais": 71,
+            "vagensReais": 30,
+            "graosDetectados": 42,
+            "vagensDetectadas": 14,
+            "confiancaMedia": 70.08767170565469
+        },
+        "4d61f5fb-3be5-4b70-8a5a-e40a640727b8_2.jpg": {
+            "graosReais": 48,
+            "vagensReais": 18,
+            "graosDetectados": 60,
+            "vagensDetectadas": 20,
+            "confiancaMedia": 73.50345075130463
+        },
+        "4fa8d033-43a9-4c46-bbc8-27a3c19710fe_1.jpg": {
+            "graosReais": 45,
+            "vagensReais": 20,
+            "graosDetectados": 42,
+            "vagensDetectadas": 14,
+            "confiancaMedia": 62.47206841196333
+        },
+        "4fa8d033-43a9-4c46-bbc8-27a3c19710fe_2.jpg": {
+            "graosReais": 85,
+            "vagensReais": 37,
+            "graosDetectados": 87,
+            "vagensDetectadas": 29,
+            "confiancaMedia": 66.64547252243963
+        },
+        "4fa8d033-43a9-4c46-bbc8-27a3c19710fe_3.jpg": {
+            "graosReais": 54,
+            "vagensReais": 21,
+            "graosDetectados": 47,
+            "vagensDetectadas": 16,
+            "confiancaMedia": 73.44989348202944
+        },
+        "5be10525-5233-4ea8-95e6-b4c1a3f4522f_1.jpg": {
+            "graosReais": 50,
+            "vagensReais": 22,
+            "graosDetectados": 57,
+            "vagensDetectadas": 20,
+            "confiancaMedia": 65.89183002710342
+        },
+        "5be10525-5233-4ea8-95e6-b4c1a3f4522f_2.jpg": {
+            "graosReais": 81,
+            "vagensReais": 31,
+            "graosDetectados": 87,
+            "vagensDetectadas": 30,
+            "confiancaMedia": 67.4887752532959
+        },
+        "5be10525-5233-4ea8-95e6-b4c1a3f4522f_3.jpg": {
+            "graosReais": 49,
+            "vagensReais": 22,
+            "graosDetectados": 48,
+            "vagensDetectadas": 21,
+            "confiancaMedia": 66.28743410110474
+        },
+        "6a1b4fb6-af2c-4a00-a7a8-13bc3c81bb94_1.jpg": {
+            "graosReais": 43,
+            "vagensReais": 31,
+            "graosDetectados": 47,
+            "vagensDetectadas": 18,
+            "confiancaMedia": 65.55901798937056
+        },
+        "6ae1b9aa-ced3-482e-92d6-e07000971a3a_1.jpg": {
+            "graosReais": 73,
+            "vagensReais": 49,
+            "graosDetectados": 67,
+            "vagensDetectadas": 27,
+            "confiancaMedia": 64.72009321053822
+        },
+        "6ae1b9aa-ced3-482e-92d6-e07000971a3a_2.jpg": {
+            "graosReais": 70,
+            "vagensReais": 29,
+            "graosDetectados": 63,
+            "vagensDetectadas": 30,
+            "confiancaMedia": 62.0596773425738
+        },
+        "6ae1b9aa-ced3-482e-92d6-e07000971a3a_3.jpg": {
+            "graosReais": 73,
+            "vagensReais": 33,
+            "graosDetectados": 70,
+            "vagensDetectadas": 39,
+            "confiancaMedia": 62.46859133243561
+        }
+    }
+}
