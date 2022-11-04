@@ -3,7 +3,12 @@
 *.pyc
 
 # Weight files
-#bin/
+bin/
+
+# Sample image data
+# sample_img/*.jpg
+# !sample_img/sample_*.jpg
+# sample_img/out/*
 
 # Annotated test results
 results/
@@ -18,8 +23,7 @@ tfnet/yolo/*.parsed
 /test.py
 
 # Built cython files
-darkflow/cython_utils/*.pyd
-darkflow/cython_utils/*.c
+cython_utils/
 
 #egg-info
 darkflow.egg-info/
@@ -38,4 +42,3 @@ ckpt/
 
 #pytest cache
 .cache/
-

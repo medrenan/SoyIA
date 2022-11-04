@@ -3,10 +3,10 @@ from flask import make_response,jsonify
 from imagem import IAprocess, IATest
 
 #Substituir o 'test' pela imagem e colocar False (metodo para a IA processar a imagem e retornar os dados)
-teste = IAprocess('test',True)
+#teste = IAprocess('test',True)
 
 #Metodo para medir a precisão do modelo
-#IATest()
+IATest()
 
 def getGrainsEstimate(cultiveId):
     return make_response({
