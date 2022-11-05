@@ -14,7 +14,7 @@ import sys
 
 # from scripts.imageProcessingScripts import preProcessing
 
-def IAprocess(imageStr,test):
+def IAprocess(imageStr,test,n):
     image= ""
     samples = list()
     idTemp = str(datetime.now().strftime('%Y-%m-%d-%H-%M-%S'))
@@ -82,8 +82,8 @@ def IAprocess(imageStr,test):
     #converte a imagem de saida em JSON
     imageString = "" 
     idTemp2 = str(datetime.now().strftime('%Y-%m-%d-%H-%M-%S'))
-    cv2.imwrite(f"../IA/out/ImageOUT2-{idTemp2}.jpg", boxing(original_img, results))
-    with open(f"../IA/out/ImageOUT2-{idTemp2}.jpg", "rb") as image2string: 
+    cv2.imwrite(f"../IA/out/sampleResults/images/{n}.jpg", boxing(original_img, results))
+    with open(f"../IA/out/sampleResults/images/{n}.jpg", "rb") as image2string: 
         imageString = str(base64.b64encode(image2string.read()), 'utf-8')
 
     #cria um JSON com a imagem e os resultados
@@ -109,8 +109,8 @@ def IAprocess(imageStr,test):
     # cv2.destroyAllWindows()
 
     #Exclui as imagens geradas (comentar para deixa-las salvas)
-    if os.path.isfile(f"../IA/out/ImageOUT2-{idTemp2}.jpg"):
-        os.remove(f"../IA/out/ImageOUT2-{idTemp2}.jpg")
+    # if os.path.isfile(f"../IA/out/sampleResults/images/{n}.jpg"):
+    #     os.remove(f"../IA/out/sampleResults/images/{n}.jpg")
     if os.path.isfile(f"../IA/out/imageOUT-{idTemp}.jpg"):
         os.remove(f"../IA/out/imageOUT-{idTemp}.jpg")
     
@@ -163,7 +163,7 @@ def IATest():
     detects = {}
 
     for i in range(0, len(samples)):
-        img = IAprocess(samples[i], True)
+        img = IAprocess(samples[i], True, i)
         graos.append(img['graos'])
         vagens.append(img['vagens'])
         confiancaMedia.append(img['confianca'])
@@ -183,7 +183,7 @@ def IATest():
         graosReal += data["n_graos"][i]
         vagensReal += data["n_vagens"][i]
 
-        detects[samples[i]] = {'graosReais': data["n_graos"][i], 'vagensReais': data["n_vagens"][i], 'graosDetectados': graos[i], 'vagensDetectadas': vagens[i], 'confiancaMedia': confiancaMedia[i]}
+        detects[f'Imagem: {str(i)}'] = {'graosReais': data["n_graos"][i], 'vagensReais': data["n_vagens"][i], 'graosDetectados': graos[i], 'vagensDetectadas': vagens[i], 'confiancaMedia': confiancaMedia[i]}
 
     print('Graos: ', graosTotal, 'Vagens: ', vagensTotal, 'VagensReal: ', vagensReal, 'GraosReal: ', graosReal)
     PorcentagemVagens = (vagensTotal * 100) / vagensReal
@@ -192,6 +192,7 @@ def IATest():
 
     for _, _, arquivo in os.walk('../IA/ckpt'):
         id = arquivo[4].split('.')[0]
+        id = id.split('-')[2]
 
     dados = {
         "model": id,
@@ -201,7 +202,7 @@ def IATest():
         "Dados reais x Detectados": detects
     }
     json_info = json.dumps(dados, indent = 4) 
-    with open(f"../IA/out/sampleResults/{id}.json", "w") as outfile: 
+    with open(f"../IA/out/sampleResults/Model-{id}-Results.json", "w") as outfile: 
      outfile.write(json_info) 
         
 
