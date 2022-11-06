@@ -13,23 +13,34 @@ def sayHello():
     res = hello()
     return res
 
-@aiMethods_bp.route("/getGrains/<id>",methods=['GET'])
-def grainsEstimate(id):
-    res = getGrainsEstimate(id)
+# @aiMethods_bp.route("/getGrains/<id>",methods=['GET'])
+# def grainsEstimate(id):
+#     res = getGrainsEstimate(id)
+#     return res
+
+#Aqui ele recebe diretamente a string da imagem e retorna a estimativa
+@aiMethods_bp.route("/getGrains",methods=['GET'])
+def grainsEstimate(str):
+    res = getGrainsEstimate(request.get_json())
     return res
+
 
 @fileUpload_bp.route("/upload",methods=['POST'])
 def uploadFile():
-    file = request.files.get("file",None)
-    folderPath = request.form.get('folderPath',None)
+    # file = request.files.get("file",None)
+    # folderPath = request.form.get('folderPath',None)
 
-    if(file is None):
-        res = make_response({"mensagem":'falta arquivo'},400)
-        return res
+    # if(file is None):
+    #     res = make_response({"mensagem":'falta arquivo'},400)
+    #     return res
 
-    if(folderPath is None):
-        res = make_response({"mensagem":'falta caminho'},400)
-        return res
+    # if(folderPath is None):
+    #     res = make_response({"mensagem":'falta caminho'},400)
+    #     return res
     
-    res = fileUpload(file,folderPath)
+    # res = fileUpload(file,folderPath)
+    # return res
+
+    res = grainsEstimate(request.json)
+    print(res)
     return res
