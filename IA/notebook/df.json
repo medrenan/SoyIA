@@ -1,0 +1,212 @@
+{
+        "Imagem: 0": {
+            "graosReais": 60,
+            "vagensReais": 20,
+            "graosDetectados": 53,
+            "vagensDetectadas": 20,
+            "confiancaMedia": 67.68657132983208
+        },
+        "Imagem: 1": {
+            "graosReais": 62,
+            "vagensReais": 22,
+            "graosDetectados": 57,
+            "vagensDetectadas": 26,
+            "confiancaMedia": 62.84499305945177
+        },
+        "Imagem: 2": {
+            "graosReais": 75,
+            "vagensReais": 26,
+            "graosDetectados": 74,
+            "vagensDetectadas": 26,
+            "confiancaMedia": 65.7335040661005
+        },
+        "Imagem: 3": {
+            "graosReais": 60,
+            "vagensReais": 25,
+            "graosDetectados": 45,
+            "vagensDetectadas": 16,
+            "confiancaMedia": 64.97649140655994
+        },
+        "Imagem: 4": {
+            "graosReais": 54,
+            "vagensReais": 18,
+            "graosDetectados": 46,
+            "vagensDetectadas": 17,
+            "confiancaMedia": 69.06178698820226
+        },
+        "Imagem: 5": {
+            "graosReais": 105,
+            "vagensReais": 44,
+            "graosDetectados": 110,
+            "vagensDetectadas": 40,
+            "confiancaMedia": 68.06575067341328
+        },
+        "Imagem: 6": {
+            "graosReais": 45,
+            "vagensReais": 21,
+            "graosDetectados": 54,
+            "vagensDetectadas": 18,
+            "confiancaMedia": 61.736048095756104
+        },
+        "Imagem: 7": {
+            "graosReais": 28,
+            "vagensReais": 12,
+            "graosDetectados": 36,
+            "vagensDetectadas": 12,
+            "confiancaMedia": 58.61299236615499
+        },
+        "Imagem: 8": {
+            "graosReais": 74,
+            "vagensReais": 32,
+            "graosDetectados": 63,
+            "vagensDetectadas": 26,
+            "confiancaMedia": 61.42676850924125
+        },
+        "Imagem: 9": {
+            "graosReais": 37,
+            "vagensReais": 19,
+            "graosDetectados": 56,
+            "vagensDetectadas": 20,
+            "confiancaMedia": 67.35634818673134
+        },
+        "Imagem: 10": {
+            "graosReais": 52,
+            "vagensReais": 24,
+            "graosDetectados": 42,
+            "vagensDetectadas": 16,
+            "confiancaMedia": 60.365510545670986
+        },
+        "Imagem: 11": {
+            "graosReais": 97,
+            "vagensReais": 41,
+            "graosDetectados": 87,
+            "vagensDetectadas": 29,
+            "confiancaMedia": 66.53121874250215
+        },
+        "Imagem: 12": {
+            "graosReais": 100,
+            "vagensReais": 41,
+            "graosDetectados": 66,
+            "vagensDetectadas": 22,
+            "confiancaMedia": 61.07752201232043
+        },
+        "Imagem: 13": {
+            "graosReais": 66,
+            "vagensReais": 31,
+            "graosDetectados": 52,
+            "vagensDetectadas": 21,
+            "confiancaMedia": 62.380885510217574
+        },
+        "Imagem: 14": {
+            "graosReais": 37,
+            "vagensReais": 21,
+            "graosDetectados": 42,
+            "vagensDetectadas": 17,
+            "confiancaMedia": 66.42426287426667
+        },
+        "Imagem: 15": {
+            "graosReais": 49,
+            "vagensReais": 24,
+            "graosDetectados": 61,
+            "vagensDetectadas": 21,
+            "confiancaMedia": 65.08645684946151
+        },
+        "Imagem: 16": {
+            "graosReais": 52,
+            "vagensReais": 21,
+            "graosDetectados": 48,
+            "vagensDetectadas": 16,
+            "confiancaMedia": 72.8424483910203
+        },
+        "Imagem: 17": {
+            "graosReais": 71,
+            "vagensReais": 30,
+            "graosDetectados": 48,
+            "vagensDetectadas": 16,
+            "confiancaMedia": 64.50091060250998
+        },
+        "Imagem: 18": {
+            "graosReais": 48,
+            "vagensReais": 18,
+            "graosDetectados": 57,
+            "vagensDetectadas": 19,
+            "confiancaMedia": 69.28801960066745
+        },
+        "Imagem: 19": {
+            "graosReais": 45,
+            "vagensReais": 20,
+            "graosDetectados": 45,
+            "vagensDetectadas": 15,
+            "confiancaMedia": 65.9717990954717
+        },
+        "Imagem: 20": {
+            "graosReais": 85,
+            "vagensReais": 37,
+            "graosDetectados": 103,
+            "vagensDetectadas": 35,
+            "confiancaMedia": 63.920691098485676
+        },
+        "Imagem: 21": {
+            "graosReais": 54,
+            "vagensReais": 21,
+            "graosDetectados": 36,
+            "vagensDetectadas": 13,
+            "confiancaMedia": 63.52580785751343
+        },
+        "Imagem: 22": {
+            "graosReais": 50,
+            "vagensReais": 22,
+            "graosDetectados": 66,
+            "vagensDetectadas": 23,
+            "confiancaMedia": 68.90297778274702
+        },
+        "Imagem: 23": {
+            "graosReais": 81,
+            "vagensReais": 31,
+            "graosDetectados": 78,
+            "vagensDetectadas": 30,
+            "confiancaMedia": 67.56654212872188
+        },
+        "Imagem: 24": {
+            "graosReais": 49,
+            "vagensReais": 22,
+            "graosDetectados": 48,
+            "vagensDetectadas": 20,
+            "confiancaMedia": 64.49410513043404
+        },
+        "Imagem: 25": {
+            "graosReais": 43,
+            "vagensReais": 31,
+            "graosDetectados": 47,
+            "vagensDetectadas": 20,
+            "confiancaMedia": 64.40368980169296
+        },
+        "Imagem: 26": {
+            "graosReais": 73,
+            "vagensReais": 49,
+            "graosDetectados": 58,
+            "vagensDetectadas": 24,
+            "confiancaMedia": 71.1310189217329
+        },
+        "Imagem: 27": {
+            "graosReais": 70,
+            "vagensReais": 29,
+            "graosDetectados": 52,
+            "vagensDetectadas": 25,
+            "confiancaMedia": 62.547096967697144
+        },
+        "Imagem: 28": {
+            "graosReais": 73,
+            "vagensReais": 33,
+            "graosDetectados": 67,
+            "vagensDetectadas": 30,
+            "confiancaMedia": 62.57792274157206
+        },
+        "Imagem: 29": {
+            "graosReais": 69,
+            "vagensReais": 30,
+            "graosDetectados": 58,
+            "vagensDetectadas": 24,
+            "confiancaMedia": 65.08230802913506
+        }
+    }
