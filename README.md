@@ -10,7 +10,7 @@
 
 <h2 align="right">
         <img src="https://img.shields.io/badge/status-ongoing-blue?style=for-the-badge&logo=appveyor" alt="Status: Ongoing">   
-        <img src="https://img.shields.io/badge/sprint-3-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
+        <img src="https://img.shields.io/badge/sprint-4-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
 </h2>
             
 
@@ -29,22 +29,33 @@
 
 # Product Backlog 📍
 
-<p align= "justigy"> It was decided that the project would be divided into 4 deliveries, throughout the sprints it will be updated and modified as the deliveries progress.</p>
-<p align="justify">
+<p align= "justify"> It was decided that the project would be divided into 4 deliveries, throughout the sprints it will be updated and modified as the deliveries progress.</p>
+
+<p align="center">
         <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%201.png" width="400"/>
         <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%202.png" width="400"/>
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%203.png" width="400"/>
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Product%20Backlog/Product%20Backlog%20Sprint%204.png" width="400"/>
         
-
 You can also see the complete *Product Backlog* of each sprint clicking [here](https://docs.google.com/spreadsheets/d/1kvREkN38lj2lWdEc1EylQo3yAcwkrQTZlOtGEeqNCi8/edit?usp=sharing)
 </p>
 
 # Project in Operation 📱
 
    <p align="justify">
-        In this 3rd Sprint we developed the main functionality for the user which would be the identification of pod seeds from the application, allowing the user to take a picture of their pod and then send to AI to identify the seeds thus returning the number of seeds present in the image.
+        In this 3rd Sprint it was decided to integrate the AI ​​with the application and being the counting of pod seeds via pixel, screen automation and new functionality for the user to remove their pod samples.
         
-        Em desenvolvimento
-  </p>
+        
+| *Soy seed count via pixel*  |
+| :---------------------------: |
+| <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Results%20IA/Results%20IA%20Sprint%203/images/13.jpg" height="400"> <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Results%20IA/Results%20IA%20Sprint%203/images/25.jpg" height="400"> <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Results%20IA/Results%20IA%20Sprint%203/images/28.jpg" height="400"> |
+
+### Precision of IA
+
+| Grains | Green beans |
+| ----- | ------ | 
+| <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%203/GraosPlot.png">   | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%203/VagensPlot.png"> |
+ 
         
  
 # Delivery Schedule 🗓
@@ -53,7 +64,7 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
 | *Sprints*  | *About* | *Delivery*    | *README*  | *Release* |
 | ---------- | ------  | ------------- | ------    | --------- |
 |  Sprint 1  | AI modeling and training to identify soybean pods present in plant photos. | 18/09 | [View](https://github.com/medrenan/SoyIA/edit/main/doc/README/README%20Sprint1.md) | [Download](https://github.com/medrenan/SoyIA/releases/tag/sprint1) |
-|  Sprint 2  | Implement and train image recognition and classification AI for seed count in soybean pods.  | 09/10 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint2.md) | [Download](#)|
+|  Sprint 2  | Implement and train image recognition and classification AI for seed count in soybean pods.  | 09/10 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint2.md) | [Download](https://github.com/medrenan/SoyIA/releases/tag/Sprint-2)|
 |  Sprint 3  | Implementing AI in the application with user core functionalities. | 06/11 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint3.md) | [Download](#) |
 |  Sprint 4  | Improved effectiveness of seed identification and user functionality. | 27/11 | [-](#) | [-](#) |     
 
