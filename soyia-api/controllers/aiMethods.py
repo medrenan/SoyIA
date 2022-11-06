@@ -9,3 +9,4 @@ def getGrainsEstimate(imageStr):
     print(imageStr)
     res = IAprocess(imageStr,False,0)
     return make_response(res,200)
+
