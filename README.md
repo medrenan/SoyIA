@@ -54,7 +54,7 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
 | ---------- | ------  | ------------- | ------    | --------- |
 |  Sprint 1  | AI modeling and training to identify soybean pods present in plant photos. | 18/09 | [View](https://github.com/medrenan/SoyIA/edit/main/doc/README/README%20Sprint1.md) | [Download](https://github.com/medrenan/SoyIA/releases/tag/sprint1) |
 |  Sprint 2  | Implement and train image recognition and classification AI for seed count in soybean pods.  | 09/10 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint2.md) | [Download](#)|
-|  Sprint 3  | Implementing AI in the application with user core functionalities. | 06/11 | [View](https://github.com/medrenan/SoyIA/commit/be06fe0babd3776311ec155a108a34d500ab1b82) | [Download](#) |
+|  Sprint 3  | Implementing AI in the application with user core functionalities. | 06/11 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint3.md) | [Download](#) |
 |  Sprint 4  | Improved effectiveness of seed identification and user functionality. | 27/11 | [-](#) | [-](#) |     
 
 # Team 👩‍💻👨‍💻
