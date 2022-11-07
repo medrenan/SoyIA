@@ -82,8 +82,8 @@ def IAprocess(imageStr,test,n):
     #converte a imagem de saida em JSON
     imageString = "" 
     idTemp2 = str(datetime.now().strftime('%Y-%m-%d-%H-%M-%S'))
-    cv2.imwrite(f"../IA/out/sampleResults/images/{n}.jpg", boxing(original_img, results))
-    with open(f"../IA/out/sampleResults/images/{n}.jpg", "rb") as image2string: 
+    cv2.imwrite(f"../IA/out/{n}.jpg", boxing(original_img, results))
+    with open(f"../IA/out/{n}.jpg", "rb") as image2string: 
         imageString = str(base64.b64encode(image2string.read()), 'utf-8')
 
     #cria um JSON com a imagem e os resultados
@@ -93,11 +93,11 @@ def IAprocess(imageStr,test,n):
         "confianca" : mediaConfianca, 
         "graos" : beans, 
         "vagens" : soyTotal, 
-        "image" : imageString
+        # "image" : imageString
     } 
 
     #JSON com os resultados
-    json_info = json.dumps(dictionary, indent = 5) 
+    # json_info = json.dumps(dictionary, indent = 5) 
 
     #salva o JSON (opcional para testes, pode ser comentado)
     # with open(f"../IA/out/{date}.json", "w") as outfile: 
@@ -109,8 +109,8 @@ def IAprocess(imageStr,test,n):
     # cv2.destroyAllWindows()
 
     #Exclui as imagens geradas (comentar para deixa-las salvas)
-    # if os.path.isfile(f"../IA/out/sampleResults/images/{n}.jpg"):
-    #     os.remove(f"../IA/out/sampleResults/images/{n}.jpg")
+    if os.path.isfile(f"../IA/out/{n}.jpg"):
+        os.remove(f"../IA/out/{n}.jpg")
     if os.path.isfile(f"../IA/out/imageOUT-{idTemp}.jpg"):
         os.remove(f"../IA/out/imageOUT-{idTemp}.jpg")
     
