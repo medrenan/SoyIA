@@ -27,20 +27,16 @@ def grainsEstimate(str):
 
 @fileUpload_bp.route("/upload",methods=['POST'])
 def uploadFile():
-    # file = request.files.get("file",None)
-    # folderPath = request.form.get('folderPath',None)
+    file = request.get_json()['file']
+    folderPath = request.get_json()['folderPath']
 
-    # if(file is None):
-    #     res = make_response({"mensagem":'falta arquivo'},400)
-    #     return res
+    if(file is None):
+        res = make_response({"mensagem":'falta arquivo'},400)
+        return res
 
-    # if(folderPath is None):
-    #     res = make_response({"mensagem":'falta caminho'},400)
-    #     return res
+    if(folderPath is None):
+        res = make_response({"mensagem":'falta caminho'},400)
+        return res
     
-    # res = fileUpload(file,folderPath)
-    # return res
-
-    res = grainsEstimate(request.json)
-    print(res)
+    res = fileUpload(file,folderPath)
     return res
