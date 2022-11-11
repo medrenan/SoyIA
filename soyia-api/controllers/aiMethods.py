@@ -6,7 +6,7 @@ from imagem import IAprocess, IATest
 #IATest()
 
 def getGrainsEstimate(imageStr):
-    print(imageStr)
+    # return make_response({"pods":20,"grains":20},200)
     res = IAprocess(imageStr,False,0)
     return make_response(res,200)
 
