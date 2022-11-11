@@ -12,7 +12,7 @@ def fileUpload(file,folderPath):
         from firebase_admin import storage
         bucket = storage.bucket()
         blob = bucket.blob(fileName)
-        blob.upload_from_string(file)
+        blob.upload_from_string("data:image/png;base64,"+file)
         blob.make_public()
         res = make_response({"mensagem":"imagem baixada em: "+blob.public_url},200)
         return res
