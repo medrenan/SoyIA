@@ -1,5 +1,11 @@
-import numpy
+import numpy,json,matplotlib.pyplot as plt
 from sklearn import metrics
+
+dictionary = json.load(open('sampleInfos.json', 'r'))
+xAxis = [key for key, value in dictionary.items()]
+yAxis = [value for key, value in dictionary.items()]
+plt.grid(True)
+
 actual = numpy.random.binomial(1, 0.9, size = 1000)
 predicted = numpy.random.binomial(1, 0.9, size = 1000)
 confusion_matrix = metrics.confusion_matrix(actual, predicted)
