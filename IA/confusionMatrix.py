@@ -1,20 +1,19 @@
-import numpy,json,matplotlib.pyplot as plt
-from sklearn import metrics
+import json
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.metrics import plot_confusion_matrix
 
-dictionary = json.load(open('out/sampleResults/data/Model-364580-Results.json', 'r'))
-xAxis = [key for key, value in dictionary.items()]
-yAxis = [value for key, value in dictionary.items()]
-plt.grid(True)
+resultJson = json.load(open("out/sampleResults/data/Model-364580-Results.json"))
+realDet=(resultJson["Dados reais x Detectados"])
+i=0
+for i in range(30):
+    search="Imagem: "
+    search+=str(i)
+    imagemN=(realDet[search])
+    
+    realGrao = pd.Series(imagemN["graosReais"], name='Graos Reais')
+    detecGrao = pd.Series(imagemN["graosDetectados"], name='Graos Detectados')
+    realVagem = pd.Series(imagemN["graosReais"], name='Vagens Reais')
+    detecVagem = pd.Series(imagemN["graosDetectados"], name='Vagens Detectadas')
 
-## LINE GRAPH ##
-plt.plot(xAxis,yAxis, color='maroon', marker='o')
-plt.xlabel('variable')
-plt.ylabel('value')
-
-## BAR GRAPH ##
-fig = plt.figure()
-plt.bar(xAxis,yAxis, color='maroon')
-plt.xlabel('variable')
-plt.ylabel('value')
-
-plt.show()
+    plot_confusion_matrix(realGrao, detecGrao, realVagem,detecVagem) 
