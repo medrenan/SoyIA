@@ -1,15 +1,20 @@
 import numpy,json,matplotlib.pyplot as plt
 from sklearn import metrics
 
-dictionary = json.load(open('sampleInfos.json', 'r'))
+dictionary = json.load(open('out/sampleResults/data/Model-364580-Results.json', 'r'))
 xAxis = [key for key, value in dictionary.items()]
 yAxis = [value for key, value in dictionary.items()]
 plt.grid(True)
 
-actual = numpy.random.binomial(1, 0.9, size = 1000)
-predicted = numpy.random.binomial(1, 0.9, size = 1000)
-confusion_matrix = metrics.confusion_matrix(actual, predicted)
-cm_display = metrics.ConfusionMatrixDisplay(confusion_matrix = confusion_matrix, display_labels = [False, True])
-import matplotlib.pyplot as plt
-cm_display.plot()
+## LINE GRAPH ##
+plt.plot(xAxis,yAxis, color='maroon', marker='o')
+plt.xlabel('variable')
+plt.ylabel('value')
+
+## BAR GRAPH ##
+fig = plt.figure()
+plt.bar(xAxis,yAxis, color='maroon')
+plt.xlabel('variable')
+plt.ylabel('value')
+
 plt.show()
