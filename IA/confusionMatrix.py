@@ -1,7 +1,7 @@
 import json
-import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.metrics import plot_confusion_matrix
+import seaborn as sn
+import pandas as pd
 
 resultJson = json.load(open("out/sampleResults/data/Model-364580-Results.json"))
 realDet=(resultJson["Dados reais x Detectados"])
@@ -10,10 +10,12 @@ for i in range(30):
     search="Imagem: "
     search+=str(i)
     imagemN=(realDet[search])
+    print("JSON: ",imagemN)
     
-    realGrao = pd.Series(imagemN["graosReais"], name='Graos Reais')
-    detecGrao = pd.Series(imagemN["graosDetectados"], name='Graos Detectados')
-    realVagem = pd.Series(imagemN["graosReais"], name='Vagens Reais')
-    detecVagem = pd.Series(imagemN["graosDetectados"], name='Vagens Detectadas')
-
-    plot_confusion_matrix(realGrao, detecGrao, realVagem,detecVagem) 
+    array = [[imagemN['graosReais'],imagemN['graosDetectados']],[imagemN['vagensReais'],imagemN['vagensDetectadas']]]
+    print(array)
+    df_cm = pd.DataFrame(array, index = ['Vagens','Grãos'],columns = ['Reais','Detectados'])
+    plt.figure(figsize = (2,2))
+    plt.ticklabel_format(style='plain', useOffset=False)
+    sn.heatmap(df_cm, annot=True, fmt='g')
+    plt.show()
