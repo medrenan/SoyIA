@@ -21,7 +21,9 @@ def sayHello():
 #Aqui ele recebe diretamente a string da imagem e retorna a estimativa
 @aiMethods_bp.route("/getGrains",methods=['POST'])
 def grainsEstimate():
-    file = request.get_json()['file']
+    print(request)
+    file = request.get_json()
+    print(file)
     res = getGrainsEstimate(file)
     return res
 
