@@ -39,7 +39,7 @@ def IAprocess(imageStr,test,n):
     #opções para carregar o modelo
     options = {"model": "../IA/cfg/yolo-new.cfg",
             "load": -1,
-            "gpu": 1.0}
+            "gpu": 0.0}
     #configura a rede com as opções
     tfnet2 = TFNet(options)
     #carrega a rede

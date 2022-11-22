@@ -8,5 +8,5 @@ from imagem import IAprocess, IATest
 def getGrainsEstimate(imageStr):
     # return make_response({"pods":20,"grains":20},200)
     res = IAprocess(imageStr,False,0)
-    return make_response(res,200)
+    return make_response({"pods": res["vagens"], "grains": res["graos"]},200)
 

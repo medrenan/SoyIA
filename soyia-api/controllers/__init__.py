@@ -13,15 +13,10 @@ def sayHello():
     res = hello()
     return res
 
-# @aiMethods_bp.route("/getGrains/<id>",methods=['GET'])
-# def grainsEstimate(id):
-#     res = getGrainsEstimate(id)
-#     return res
-
 #Aqui ele recebe diretamente a string da imagem e retorna a estimativa
 @aiMethods_bp.route("/getGrains",methods=['POST'])
 def grainsEstimate():
-    file = request.get_json()['file']
+    file = request.get_json()
     res = getGrainsEstimate(file)
     return res
 
