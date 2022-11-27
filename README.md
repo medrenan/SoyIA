@@ -9,7 +9,7 @@
 </p>
 
 <h2 align="right">
-        <img src="https://img.shields.io/badge/status-ongoing-blue?style=for-the-badge&logo=appveyor" alt="Status: Ongoing">   
+        <img src="https://img.shields.io/badge/status-complete-blue?style=for-the-badge&logo=appveyor" alt="Status: Ongoing">   
         <img src="https://img.shields.io/badge/sprint-4-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
 </h2>
             
@@ -42,20 +42,7 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
 
 # Project in Operation 📱
 
-   <p align="justify">
-        In this 3rd Sprint it was decided to integrate the AI ​​with the application and being the counting of pod seeds via pixel, screen automation and new functionality for the user to remove their pod samples.
-        
-        
-| *Soy seed count via pixel*  |
-| :---------------------------: |
-| <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Results%20IA/Results%20IA%20Sprint%203/images/13.jpg" height="400"> <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Results%20IA/Results%20IA%20Sprint%203/images/25.jpg" height="400"> <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Results%20IA/Results%20IA%20Sprint%203/images/28.jpg" height="400"> |
-
-### Precision of IA
-
-| Grains | Green beans |
-| ----- | ------ | 
-| <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%203/GraosPlot.png">   | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%203/VagensPlot.png"> |
- 
+*In Development*
         
  
 # Delivery Schedule 🗓
@@ -66,7 +53,7 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
 |  Sprint 1  | AI modeling and training to identify soybean pods present in plant photos. | 18/09 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint1.md) | [Download](https://github.com/medrenan/SoyIA/releases/tag/sprint1) |
 |  Sprint 2  | Implement and train image recognition and classification AI for seed count in soybean pods.  | 09/10 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint2.md) | [Download](https://github.com/medrenan/SoyIA/releases/tag/Sprint-2)|
 |  Sprint 3  | Implementing AI in the application with user core functionalities. | 06/11 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint3.md) | [Download](#) |
-|  Sprint 4  | Improved effectiveness of seed identification and user functionality. | 27/11 | [-](#) | [-](#) |     
+|  Sprint 4  | Improved effectiveness of seed identification and user functionality. | 27/11 | [View](https://github.com/medrenan/SoyIA/blob/main/doc/README/README%20Sprint4.md) | [Download](#) |     
 
 # Team 👩‍💻👨‍💻
 
