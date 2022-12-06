@@ -42,7 +42,18 @@ You can also see the complete *Product Backlog* of each sprint clicking [here](h
 
 # Project in Operation 📱
 
-*In Development*
+Our main delivery for this sprint is the main functionality of the application, the user being able to use the image of his sample in the application and it returns the number of soybean seeds.
+
+<p align="center">
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App-running.gif">
+</p>
+
+Each step that the user will follow to get the return of the number of soybean seeds.
+
+| Step 1 | Step 2 | Step 3 | Step 4 | Step 5 |
+| --- | --- | --- | --- | --- |
+| <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App%20step%201.jpeg" width="250"> | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App%20step%202.jpeg" width="250"> | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App%20step%203.jpeg" width="250"> | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App%20step%204.jpeg" width="250"> | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App%20step%205.jpeg" width="250"> |
+
         
  
 # Delivery Schedule 🗓
