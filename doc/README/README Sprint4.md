@@ -10,7 +10,7 @@
 
 <h2 align="right">
         <img src="https://img.shields.io/badge/status-complete-blue?style=for-the-badge&logo=appveyor" alt="Status: Complete">   
-        <img src="https://img.shields.io/badge/sprint-3-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
+        <img src="https://img.shields.io/badge/sprint-4-blue?style=for-the-badge&logo=appveyor" alt="Second= sprint">
 </h2>
             
 # <p align="center"> *The Project* 📚
@@ -34,7 +34,11 @@
        
 # <p align="center"> *Project in Operation* 📱💻
 
-*In Development*
+Our main delivery for this sprint is the main functionality of the application, the user being able to use the image of his sample in the application and it returns the number of soybean seeds.
+  
+<p align="center">
+        <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App-running.gif">
+</p>
         
 ##  <p align="center"> Definition of Ready 📑
 
@@ -55,7 +59,12 @@ We decided to use User Stories with requirements and code to prepare for this re
         
 ### Mockup
 
-*In Development*
+Each step that the user will follow to get the return of the number of soybean seeds.
+        
+| Step 1 | Step 2 | Step 3 | Step 4 | Step 5 |
+| --- | --- | --- | --- | --- |
+| <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App%20step%201.jpeg" width="250"> | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App%20step%202.jpeg" width="250"> | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App%20step%203.jpeg" width="250"> | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App%20step%204.jpeg" width="250"> | <img src="https://github.com/medrenan/SoyIA/blob/main/doc/Mockup/Sprint%204/App%20step%205.jpeg" width="250"> |
+        
 
 ##  <p align="center"> Definition of Done ✔️
 
